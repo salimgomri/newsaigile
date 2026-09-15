@@ -1,0 +1,83 @@
+# IA
+https://www.marktechpost.com/feed/
+https://thegradient.pub/rss/
+https://lastweekinai.substack.com/feed
+https://huggingface.co/blog/feed.xml
+https://simonwillison.net/atom/entries/
+https://jack-clark.net/feed/
+https://magazine.sebastianraschka.com/feed/
+https://www.deeplearning.ai/the-batch/feed/
+
+# IA Critique
+https://garymarcus.substack.com/feed
+https://aisnakeoil.com/feed
+
+# IA Sources primaires
+https://openai.com/news/rss.xml
+https://deepmind.google/blog/rss.xml
+https://blog.google/innovation-and-ai/technology/ai/rss/
+https://mistral.ai/news/rss
+
+# Scrum / Agile
+https://www.agilealliance.org/blog/feed/
+https://www.mountaingoatsoftware.com/blog/rss
+https://www.scruminc.com/feed/
+https://theliberators.com/feed/
+https://www.infoq.com/agile/feed/
+https://www.infoq.com/scrum/feed/
+
+# Engineering / Delivery
+https://martinfowler.com/feed.atom
+https://www.infoq.com/feed/
+https://news.ycombinator.com/rss
+
+# France
+https://www.lemonde.fr/intelligence-artificielle/rss_full.xml
+https://www.lemonde.fr/intelligences-artificielles-generatives/rss_full.xml
+https://www.lemonde.fr/openai/rss_full.xml
+https://www.usine-digitale.fr/arc/outboundfeeds/rss/
+https://www.lemondeinformatique.fr/flux-rss/
+https://www.laquadrature.net/feed/
+
+# Organisation / Management
+https://big-agile.com/blog
+
+# Big Tech
+https://blog.google/rss/
+https://about.fb.com/news/feed/
+https://www.aboutamazon.com/news/rss
+https://platformer.substack.com/feed
+https://www.ben-evans.com/benedictevans/rss
+
+# Influenceurs
+https://blog.samaltman.com/rss.xml
+https://www.stratechery.com/feed/
+https://stevepereira.substack.com/feed
+
+# IA / News & Analysis
+https://www.technologyreview.com/topic/artificial-intelligence/feed/
+https://techcrunch.com/category/artificial-intelligence/feed/
+https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+https://venturebeat.com/category/ai/feed/
+https://arstechnica.com/ai/feed/
+
+# IA / Recherche
+https://rss.arxiv.org/rss/cs.AI
+https://www.microsoft.com/en-us/research/feed/
+https://research.google/blog/rss/
+https://machinelearning.apple.com/rss.xml
+
+# IA / Infrastructure
+https://blogs.nvidia.com/feed/
+https://developer.nvidia.com/blog/feed/
+https://aws.amazon.com/blogs/machine-learning/feed/
+
+# IA / Agents
+https://blog.langchain.dev/rss/
+
+# IA / Sources primaires
+https://blogs.microsoft.com/ai/feed/
+https://ai.meta.com/blog/rss/
+
+# Gartner
+https://www.gartner.com/newsroom/rss

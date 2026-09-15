@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIgile, Veille & Opportunités</title>
+<style>
+  :root{
+    --ink:#1A1A2E;--ink-2:#3a3a52;--muted:#6e6e80;--line:#ececf0;--bg:#fbfbfd;--card:#ffffff;
+    --yellow:#FEDB10;--link:#2b6ad6;--fort:#1a7f4b;--moyen:#9a6a12;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.55;font-size:16px;letter-spacing:-0.01em;}
+  .wrap{max-width:860px;margin:0 auto;padding:0 22px 90px}
+  a{color:var(--link);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .hero{padding:64px 22px 26px;max-width:860px;margin:0 auto}
+  .kicker{font-size:.74rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+  .kicker b{color:var(--ink)}
+  .hero h1{font-size:2.6rem;line-height:1.05;font-weight:700;letter-spacing:-0.03em;margin:14px 0 10px}
+  .pillar{font-size:1.15rem;font-weight:500;color:var(--ink-2);max-width:560px}
+  .pillar .accent{box-shadow:inset 0 -0.5em 0 rgba(254,219,16,.5)}
+  .stamp{margin-top:18px;font-size:.9rem;color:var(--muted)}
+  .tabbar{position:sticky;top:0;z-index:20;background:rgba(251,251,253,.82);backdrop-filter:saturate(180%) blur(14px);-webkit-backdrop-filter:saturate(180%) blur(14px);border-bottom:1px solid var(--line)}
+  .tabbar-inner{max-width:860px;margin:0 auto;padding:12px 22px;display:flex;gap:10px;overflow-x:auto}
+  .maintab{flex:0 0 auto;border:1px solid var(--line);background:#fff;color:var(--ink);font-weight:600;font-size:.98rem;padding:9px 20px;border-radius:980px;cursor:pointer;transition:all .18s ease;white-space:nowrap}
+  .maintab:hover{background:#f3f3f6}
+  .maintab.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .maintab .n{opacity:.55;font-weight:500;margin-left:6px}
+  .maintab.active .n{opacity:.7}
+  .subnav{margin:26px 0 6px;display:flex}
+  .seg{display:inline-flex;background:#ececed;border-radius:12px;padding:4px;gap:2px;max-width:100%;overflow-x:auto}
+  .seg button{border:0;background:transparent;font:inherit;font-size:.9rem;font-weight:600;color:var(--ink);padding:8px 15px;border-radius:9px;cursor:pointer;white-space:nowrap;transition:all .15s ease}
+  .seg button.on{background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.14)}
+  .panel{display:none}
+  .panel.active{display:block}
+  .eyebrow{display:flex;align-items:center;gap:10px;margin:38px 0 6px;font-size:.78rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
+  .eyebrow .mark{width:22px;height:3px;background:var(--yellow);border-radius:3px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px 26px;margin:16px 0;transition:box-shadow .2s ease}
+  .card:hover{box-shadow:0 10px 30px rgba(26,26,46,.06)}
+  .card h3{margin:2px 0 4px;font-size:1.16rem;line-height:1.3;font-weight:650;letter-spacing:-0.02em}
+  .card h3 a{color:var(--ink)}
+  .orig{color:var(--muted);font-size:.82rem;margin:0 0 8px}
+  .meta{color:var(--muted);font-size:.85rem;margin:0 0 12px;font-weight:500}
+  .meta .dot{margin:0 7px;opacity:.5}
+  .resume{margin:0 0 14px;color:var(--ink-2)}
+  .why{background:#fdfaea;border:1px solid #f4ecc4;border-radius:12px;padding:12px 15px;margin:0 0 14px;font-size:.93rem}
+  .why b{color:var(--ink)}
+  .tags{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0 14px}
+  .tag{background:#f2f2f5;color:var(--ink);font-size:.78rem;font-weight:600;padding:4px 11px;border-radius:980px}
+  .angles .lbl{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+  .angles ul{margin:0;padding-left:18px}
+  .angles li{margin:4px 0;font-size:.93rem;color:var(--ink-2)}
+  .story{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:30px 30px 26px;margin:14px 0}
+  .story .win{display:inline-block;font-size:.74rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);background:#f2f2f5;padding:5px 12px;border-radius:980px;margin-bottom:16px}
+  .story p{margin:0 0 15px;font-size:1.08rem;line-height:1.65;color:var(--ink)}
+  .story p.close{font-weight:600}
+  .script{background:var(--ink);color:#fff;border-radius:22px;padding:28px 28px 24px;margin:8px 0 26px}
+  .script .top{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+  .script .top .mark{width:22px;height:3px;background:var(--yellow);border-radius:3px}
+  .script .top .lbl{font-size:.74rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--yellow)}
+  .script h3{margin:2px 0 16px;font-size:1.3rem;font-weight:650;letter-spacing:-0.02em;color:#fff}
+  .script p{margin:0 0 13px;color:#e7e7f0;font-size:1.02rem;line-height:1.6}
+  .script .meta-s{margin-top:16px;font-size:.82rem;color:#a6a6c0}
+  .opp{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px 26px;margin:16px 0;transition:box-shadow .2s ease}
+  .opp:hover{box-shadow:0 10px 30px rgba(26,26,46,.06)}
+  .opp .head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+  .aud{font-size:.72rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--muted)}
+  .conv{font-size:.74rem;font-weight:700;letter-spacing:.04em;padding:4px 12px;border-radius:980px;border:1px solid}
+  .conv.fort{color:var(--fort);border-color:#bfe6cf;background:#f2fbf6}
+  .conv.moyen{color:var(--moyen);border-color:#efe1bd;background:#fdf9ee}
+  .opp h3{margin:0 0 12px;font-size:1.28rem;line-height:1.28;font-weight:700;letter-spacing:-0.025em}
+  .formats{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 14px}
+  .fmt{background:#f2f2f5;color:var(--ink);font-size:.77rem;font-weight:600;padding:4px 12px;border-radius:8px}
+  .hook{border-left:3px solid var(--yellow);padding:6px 0 6px 16px;margin:0 0 16px;font-size:1.06rem;color:var(--ink);font-weight:500}
+  .block{margin:0 0 13px}
+  .block .lbl{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+  .block .txt{color:var(--ink-2);font-size:.96rem}
+  .kw{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+  .kw .tag{background:#fdf7d8}
+  .note{background:#f4f4f7;border-radius:14px;padding:15px 18px;margin:14px 0;font-size:.9rem;color:var(--ink-2)}
+  .note b{color:var(--ink)}
+  footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
+  @media(max-width:640px){.hero h1{font-size:2.05rem}.card,.opp{padding:20px 18px}.script,.story{padding:22px 20px}}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="kicker"><b>AIgile</b> &nbsp;par Salim Gomri</div>
+  <h1>Veille &amp; Opportunités</h1>
+  <p class="pillar">On mesure la vélocité. <span class="accent">Je rends visible la solidité.</span></p>
+  <div class="stamp">14/09/2026 &nbsp;&middot;&nbsp; Fenêtre couverte : les derniers jours</div>
+</div>
+
+<div class="tabbar">
+  <div class="tabbar-inner">
+    <button class="maintab active" data-tab="resume">Résumé</button>
+    <button class="maintab" data-tab="opportunites">Opportunités <span class="n">2</span></button>
+    <button class="maintab" data-tab="veille">Veille <span class="n">6</span></button>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <section class="panel active" id="resume">
+    <div class="story">
+      <span class="win">Fenêtre couverte : les derniers jours</span>
+      <p>Le fil rouge de ces derniers jours, c'est le cadre. Qui pose les limites de l'IA, et à quelle vitesse.</p>
+      <p>Point de départ : Anthropic. Dario Amodei sort un plan en trois étapes pour ralentir la course, et OpenAI, xAI et Microsoft signent derrière (<a href="https://www.marktechpost.com/2026/09/13/anthropics-3-step-pace-the-frontier-plan-wins-openai-xai-and-microsoft-support-is-it-too-late-to-slow-ai-down/">MarkTechPost, 14/09</a>). Trois concurrents d'accord pour freiner, ça n'arrive jamais. Le message est clair : on ne construit pas vite, on construit solide.</p>
+      <p>En parallèle, la recherche avance sans bruit. Un chercheur de Princeton propose une façon de faire tenir la mémoire des modèles dans le temps (<a href="https://www.marktechpost.com/2026/09/13/a-princeton-researcher-proposes-recurrent-looped-transformer-rlt/">RLT, 13/09</a>). Rien de commercial encore, mais c'est le genre de brique qui change la donne dans six mois.</p>
+      <p>Côté usages, l'IA s'installe sur le poste de travail. Gemini débarque sur Windows (<a href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/">Google, 10/09</a>) et IBM met un modèle costaud en licence libre pour les entreprises (<a href="https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series">Granite, 09/09</a>). L'IA quitte la démo pour entrer dans le quotidien des équipes.</p>
+      <p>Pendant que la tech accélère, l'agilité remet l'humain au centre. Mike Cohn tape juste : si ton équipe Scrum travaille encore comme une addition d'individus, ce n'est pas elle le problème, c'est le système qui la staffe et la mesure (<a href="https://www.mountaingoatsoftware.com/agile/what-leaders-do-that-keep-scrum-teams-working-like-individuals">Mountain Goat, 01/09</a>). The Liberators propose même un atelier pour faire réfléchir les équipes à l'IA (<a href="https://theliberators.com/reflect-on-what-human-centered-ai-means-in-your-organization/">World Café, 07/09</a>).</p>
+      <p class="close">La vraie histoire tient en une phrase : tout le monde veut accélérer avec l'IA, personne ne parle des fondations. C'est exactement là que je me place.</p>
+    </div>
+  </section>
+
+  <section class="panel" id="opportunites">
+
+    <div class="script">
+      <div class="top"><span class="mark"></span><span class="lbl">Script vidéo du jour</span></div>
+      <h3>Format facecam, 60 à 75 secondes</h3>
+      <p>Écoute bien, parce que l'actu de ces derniers jours dit quelque chose que peu de gens osent formuler.</p>
+      <p>Trois patrons de l'IA, Amodei, Altman, Nadella, concurrents, tombent d'accord sur un seul point : il faut ralentir. Ralentir pour construire sur des bases solides. Et pendant qu'eux ralentissent, beaucoup d'organisations font l'inverse. Elles collent de l'IA partout, sur des fondations qui tiennent avec du scotch.</p>
+      <p>Je vais être direct : empiler de l'IA sur une organisation fragile, ce n'est pas de la performance. C'est du risque déguisé en modernité.</p>
+      <p>On mesure la vélocité. Moi, je rends visible la solidité. Ce n'est pas la même chose. Si ce sujet te parle, c'est mon métier depuis 23 ans. On en parle.</p>
+      <p class="meta-s">Ton : cash, direct, jamais vulgaire. Fin déclarative. Lien en premier commentaire.</p>
+    </div>
+
+    <div class="subnav">
+      <div class="seg" data-seg="opp">
+        <button class="on" data-aud="all">Tout</button>
+        <button data-aud="dirigeants">Dirigeants</button>
+        <button data-aud="equipes">Équipes &amp; SM</button>
+        <button data-aud="ia">IA</button>
+      </div>
+    </div>
+
+    <article class="opp" data-aud="dirigeants ia">
+      <div class="head"><span class="aud">Cible : dirigeants, DSI</span><span class="conv fort">Conversion forte</span></div>
+      <h3>Même les labos IA freinent. Ton organisation, elle, accélère à l'aveugle.</h3>
+      <div class="formats"><span class="fmt">Post feed</span><span class="fmt">Vidéo facecam</span></div>
+      <div class="hook">« Amodei, Altman, Nadella : trois concurrents d'accord pour ralentir l'IA. Pendant ce temps, on empile l'IA sur des fondations fragiles. »</div>
+      <div class="block"><div class="lbl">Thèse</div><div class="txt">La course à la vitesse sans solidité est un risque, pas une performance. L'IA doit accélérer correctement, sur des bases solides.</div></div>
+      <div class="block"><div class="lbl">Rattache à ton expérience</div><div class="txt">23 ans à voir des équipes accélérer sans base. Le Système S.A.L.I.M. pose d'abord la solidité, l'IA vient accélérer ensuite.</div></div>
+      <div class="block"><div class="lbl">Sources</div><div class="txt"><a href="https://www.marktechpost.com/2026/09/13/anthropics-3-step-pace-the-frontier-plan-wins-openai-xai-and-microsoft-support-is-it-too-late-to-slow-ai-down/">Pace the Frontier</a> &nbsp;+&nbsp; <a href="https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais">Last Week in AI #343</a></div></div>
+      <div class="kw"><span class="tag">vélocité vs solidité</span><span class="tag">fondations</span><span class="tag">gouvernance IA</span><span class="tag">S.A.L.I.M.</span></div>
+    </article>
+
+    <article class="opp" data-aud="equipes">
+      <div class="head"><span class="aud">Cible : Scrum Masters, équipes</span><span class="conv fort">Conversion forte</span></div>
+      <h3>Pourquoi ton équipe Scrum travaille encore comme une addition d'individus</h3>
+      <div class="formats"><span class="fmt">Carrousel diagnostic</span><span class="fmt">Accroche Pattern Cards</span></div>
+      <div class="hook">« Ils font tous les rituels Scrum. Et pourtant chacun protège sa tâche. Voici les 3 mécanismes en cause. »</div>
+      <div class="block"><div class="lbl">Thèse</div><div class="txt">Diagnostic actionnable : passages de relais, propriété individuelle des tâches, daily réduit à un statut. C'est du Scrum Théâtre.</div></div>
+      <div class="block"><div class="lbl">Rattache à ton expérience</div><div class="txt">Tes années à encadrer des Scrum Masters et tes 9 patterns de dysfonctionnement, qui diagnostiquent une équipe en quelques secondes.</div></div>
+      <div class="block"><div class="lbl">Sources</div><div class="txt"><a href="https://www.mountaingoatsoftware.com/agile/why-your-scrum-team-still-works-like-individuals">Why your Scrum team still works like individuals</a> &nbsp;+&nbsp; <a href="https://www.mountaingoatsoftware.com/agile/what-leaders-do-that-keep-scrum-teams-working-like-individuals">What leaders do</a></div></div>
+      <div class="kw"><span class="tag">diagnostic actionnable</span><span class="tag">anti-patterns</span><span class="tag">Scrum Théâtre</span><span class="tag">Pattern Cards</span></div>
+    </article>
+
+    <p class="note"><b>Sélection honnête.</b> Non plafonnée : deux angles certains jours, dix d'autres, parfois aucun si la matière ne convertit pas. La règle est la conversion, jamais le volume.</p>
+
+  </section>
+
+  <section class="panel" id="veille">
+
+    <div class="subnav">
+      <div class="seg" data-seg="veille">
+        <button class="on" data-cat="all">Tout</button>
+        <button data-cat="ia">IA &amp; Big Tech</button>
+        <button data-cat="scrum">Scrum &amp; Agile</button>
+        <button data-cat="influ">Influenceurs</button>
+      </div>
+    </div>
+
+    <div class="eyebrow" data-group="ia"><span class="mark"></span>Intelligence Artificielle &amp; Big Tech</div>
+
+    <article class="card" data-cat="ia">
+      <h3><a href="https://www.marktechpost.com/2026/09/13/anthropics-3-step-pace-the-frontier-plan-wins-openai-xai-and-microsoft-support-is-it-too-late-to-slow-ai-down/">Le plan « Pace the Frontier » d'Anthropic rallie OpenAI, xAI et Microsoft</a></h3>
+      <p class="orig">Original : Anthropic's 3-Step 'Pace the Frontier' Plan Wins OpenAI, xAI and Microsoft Support</p>
+      <p class="meta">MarkTechPost <span class="dot">&middot;</span> 14/09/2026</p>
+      <p class="resume">Dario Amodei publie un plan en trois étapes pour ralentir le développement de l'IA, aussitôt soutenu par les dirigeants d'OpenAI, xAI et Microsoft, sur fond d'incident d'agents autonomes.</p>
+      <div class="why"><b>Pourquoi c'est important pour un coach Agile :</b> le débat sur le rythme de l'IA façonne la posture à adopter face à son adoption dans les équipes et auprès des directions.</div>
+      <div class="tags"><span class="tag">Vélocité vs solidité</span><span class="tag">Gouvernance IA</span><span class="tag">Fondations</span></div>
+      <div class="angles"><div class="lbl">Angles de post</div><ul>
+        <li>Les créateurs de l'IA demandent de ralentir. En PME, on empile l'IA sur des bases fragiles.</li>
+        <li>Ralentir n'est pas reculer : c'est construire pour durer.</li>
+      </ul></div>
+    </article>
+
+    <article class="card" data-cat="ia">
+      <h3><a href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/">L'application Gemini est désormais disponible sur Windows</a></h3>
+      <p class="orig">Original : The Gemini app is now available for Windows</p>
+      <p class="meta">Google <span class="dot">&middot;</span> 10/09/2026</p>
+      <p class="resume">Google lance une application de bureau Gemini pour Windows, pensée pour fonctionner à côté des outils du quotidien.</p>
+      <div class="why"><b>Pourquoi c'est important pour un coach Agile :</b> un assistant IA intégré au poste change les rituels d'équipe et les questions d'outillage à anticiper.</div>
+      <div class="tags"><span class="tag">IA au poste de travail</span><span class="tag">Nouvelles routines</span></div>
+      <div class="angles"><div class="lbl">Angle de post</div><ul>
+        <li>Un assistant IA sur chaque poste change les rituels d'équipe. Anticipe, ne subis pas.</li>
+      </ul></div>
+    </article>
+
+    <div class="eyebrow" data-group="scrum"><span class="mark"></span>Scrum &amp; Agile</div>
+
+    <article class="card" data-cat="scrum">
+      <h3><a href="https://www.mountaingoatsoftware.com/agile/what-leaders-do-that-keep-scrum-teams-working-like-individuals">Ce que les leaders font qui maintient les équipes Scrum en mode individuel</a></h3>
+      <p class="orig">Original : What Leaders Do That Keep Scrum Teams Working Like Individuals</p>
+      <p class="meta">Mike Cohn, Mountain Goat Software <span class="dot">&middot;</span> 01/09/2026</p>
+      <p class="resume">Les équipes fonctionnent comme des individus parce que l'organisation les dote, les mesure, les interrompt et les récompense individuellement. Cohn propose des leviers de leadership pour rendre le vrai travail d'équipe possible.</p>
+      <div class="why"><b>Pourquoi c'est important pour un coach Agile :</b> cible directement le rôle du leadership dans la maturité des équipes, ton angle central auprès des dirigeants.</div>
+      <div class="tags"><span class="tag">Leadership systémique</span><span class="tag">Cible DSI / DG</span></div>
+      <div class="angles"><div class="lbl">Angle de post</div><ul>
+        <li>Ce n'est pas ton équipe le problème. C'est la façon dont tu la staffes, la mesures et la récompenses.</li>
+      </ul></div>
+    </article>
+
+    <article class="card" data-cat="scrum">
+      <h3><a href="https://theliberators.com/facilitator-participant-or-both-2/">Facilitateur, participant, ou les deux ?</a></h3>
+      <p class="orig">Original : Facilitator, participant, or both?</p>
+      <p class="meta">Barry Overeem, The Liberators <span class="dot">&middot;</span> 03/09/2026</p>
+      <p class="resume">Avec les Liberating Structures, on peut animer une structure tout en y participant, car elles sont conçues pour être utilisées par tous, sans facilitateur dédié.</p>
+      <div class="why"><b>Pourquoi c'est important pour un coach Agile :</b> renforce la posture de facilitation légère et l'auto-organisation des équipes, au cœur de ton métier.</div>
+      <div class="tags"><span class="tag">Facilitation légère</span><span class="tag">Auto-organisation</span></div>
+      <div class="angles"><div class="lbl">Angle de post</div><ul>
+        <li>La meilleure facilitation, c'est de ne plus être indispensable.</li>
+      </ul></div>
+    </article>
+
+    <div class="eyebrow" data-group="influ"><span class="mark"></span>Influenceurs &amp; Thought Leaders</div>
+
+    <article class="card" data-cat="influ">
+      <h3><a href="https://theliberators.com/reflect-on-what-human-centered-ai-means-in-your-organization/">Réfléchir à ce que l'IA centrée sur l'humain signifie dans votre organisation</a></h3>
+      <p class="orig">Original : Reflect on what human-centered AI means in your organization</p>
+      <p class="meta">Christiaan Verwijs, The Liberators <span class="dot">&middot;</span> 07/09/2026</p>
+      <p class="resume">Un guide pour animer un World Café en organisation et réfléchir collectivement à l'impact de l'IA sur le travail, le sens et les relations.</p>
+      <div class="why"><b>Pourquoi c'est important pour un coach Agile :</b> format d'atelier prêt à l'emploi pour accompagner les équipes face à l'IA, un besoin croissant chez tes clients.</div>
+      <div class="tags"><span class="tag">IA centrée humain</span><span class="tag">Atelier clé en main</span></div>
+      <div class="angles"><div class="lbl">Angle de post</div><ul>
+        <li>Un World Café pour aider ton équipe à choisir son rapport à l'IA, pas à le subir.</li>
+      </ul></div>
+    </article>
+
+    <article class="card" data-cat="influ">
+      <h3><a href="https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais">Last Week in AI #343 : GPT-6 Astra, agents autonomes et Fable 5.1</a></h3>
+      <p class="orig">Original : Last Week in AI #343, GPT-6, OpenAI's agents chatted on a wiki, Fable 5.1</p>
+      <p class="meta">Andrey Kurenkov, Last Week in AI <span class="dot">&middot;</span> 07/09/2026</p>
+      <p class="resume">Récapitulatif hebdomadaire : sortie de GPT-6 Astra, incidents d'agents autonomes coordonnés, et lancement de Claude Fable 5.1 présenté comme moins cher pour les tâches agentiques.</p>
+      <div class="why"><b>Pourquoi c'est important pour un coach Agile :</b> une synthèse fiable de l'actu IA te garde crédible quand équipes et directions posent des questions sur les derniers modèles.</div>
+      <div class="tags"><span class="tag">Actualité IA</span><span class="tag">Crédibilité</span></div>
+      <div class="angles"><div class="lbl">Angle de post</div><ul>
+        <li>Reste crédible quand un DG te parle du dernier modèle : voici ce qui compte vraiment.</li>
+      </ul></div>
+    </article>
+
+  </section>
+
+  <footer>
+    <p>Gabarit de référence AIgile. La routine reproduit fidèlement cette structure et ce style, en remplaçant le contenu par la matière du jour, selon les règles des journées.</p>
+  </footer>
+
+</div>
+
+<script>
+  var mains = document.querySelectorAll('.maintab');
+  var panels = document.querySelectorAll('.panel');
+  mains.forEach(function(b){
+    b.addEventListener('click', function(){
+      mains.forEach(function(x){x.classList.remove('active');});
+      panels.forEach(function(p){p.classList.remove('active');});
+      b.classList.add('active');
+      document.getElementById(b.dataset.tab).classList.add('active');
+      window.scrollTo({top:0, behavior:'smooth'});
+    });
+  });
+  document.querySelectorAll('.seg').forEach(function(seg){
+    var scope = seg.dataset.seg;
+    seg.querySelectorAll('button').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        seg.querySelectorAll('button').forEach(function(x){x.classList.remove('on');});
+        btn.classList.add('on');
+        if(scope === 'veille'){
+          var cat = btn.dataset.cat;
+          document.querySelectorAll('#veille .card').forEach(function(c){
+            c.style.display = (cat === 'all' || c.dataset.cat === cat) ? '' : 'none';
+          });
+          document.querySelectorAll('#veille .eyebrow').forEach(function(e){
+            e.style.display = (cat === 'all' || e.dataset.group === cat) ? '' : 'none';
+          });
+        } else {
+          var aud = btn.dataset.aud;
+          document.querySelectorAll('#opportunites .opp').forEach(function(o){
+            var list = (o.dataset.aud || '').split(' ');
+            o.style.display = (aud === 'all' || list.indexOf(aud) !== -1) ? '' : 'none';
+          });
+        }
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
