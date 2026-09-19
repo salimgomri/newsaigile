@@ -16,9 +16,9 @@ Objectif : produire chaque matin une veille lue comme un état de l'art narratif
 
 ## Règles des journées (fuseau Europe/Paris)
 La tâche tourne tous les jours de la semaine, y compris samedi et dimanche. Selon le jour d'exécution, la fenêtre couverte change :
-- Samedi, lundi, mardi, mercredi, jeudi : couvre uniquement la veille, les dernières 24h, la journée d'hier.
-- Dimanche : couvre les dernières 24h, la journée de samedi.
+- Dimanche, lundi, mardi, mercredi, jeudi : couvre uniquement la veille, les dernières 24h, la journée d'hier.
 - Vendredi : couvre toute la semaine écoulée, c'est le récap hebdo. Soigner particulièrement le script vidéo, c'est la vidéo de la semaine.
+- Samedi : couvre aussi toute la semaine écoulée, même traitement que le vendredi. C'est le jour où Salim prépare tout son contenu LinkedIn, la matière doit donc courir sur toute la semaine, jamais se limiter à la veille.
 Toujours indiquer en haut de l'onglet Résumé la fenêtre couverte ce jour.
 
 ## Structure du livrable, 3 onglets dans cet ordre
