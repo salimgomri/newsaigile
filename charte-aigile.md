@@ -50,3 +50,11 @@ Style Apple. Police système SF. Beaucoup de blanc. Jaune AIgile #FEDB10 en acce
 - Filtrer : IA, LLM, agents, automation, machine learning, Big Tech, Scrum, Agile, coaching, facilitation, influenceurs tech et agile.
 - Ignorer silencieusement tout flux vide, hors sujet ou bloqué.
 - Si la journée est pauvre, le dire, ne pas gonfler.
+
+## Protocole de secours si les flux RSS sont inaccessibles
+Certains environnements d'exécution appliquent une politique réseau qui bloque l'accès direct aux flux de sources.txt (erreur de type accès réseau refusé, quel que soit l'outil de récupération utilisé). Dans ce cas :
+- Ne jamais tenter de contourner techniquement le blocage (pas de proxy alternatif, pas de retrait des vérifications réseau). C'est une politique de l'environnement, pas un obstacle à déjouer.
+- Basculer en mode de secours : utiliser la recherche web pour reconstituer, pour chaque catégorie de sources.txt (IA, IA critique, Sources primaires, Scrum/Agile, Engineering/Delivery, France, Organisation/Management, Big Tech, Influenceurs, Recherche, Infrastructure, Agents, Gartner), des requêtes ciblées sur la fenêtre du jour, en croisant plusieurs résultats pour ne retenir que des faits datés et vérifiables avec un lien source direct.
+- Appliquer exactement les mêmes règles de rigueur que d'habitude : déduplication, filtre en trois couches, fait contre annonce, recherche de contradictions, qualification, triangulation. Une actualité trouvée par recherche web n'est pas plus fiable a priori qu'une actualité de flux RSS, elle suit le même niveau d'exigence.
+- Ne jamais forcer du contenu daté approximativement ou hors fenêtre pour combler un flux silencieux. Une journée pauvre reste une journée pauvre.
+- Toujours signaler ce mode dégradé de façon visible dans le bloc "État des sources" du livrable, en indiquant que la collecte RSS était inaccessible ce jour et que le contenu provient de la recherche web, pour que la bascule ne passe jamais inaperçue.
