@@ -29,6 +29,7 @@ https://www.infoq.com/scrum/feed/
 # Engineering / Delivery
 https://martinfowler.com/feed.atom
 https://www.infoq.com/feed/
+# Hacker News : lire aussi les fils de commentaires des threads pertinents, pas seulement les titres
 https://news.ycombinator.com/rss
 
 # France
@@ -81,3 +82,24 @@ https://ai.meta.com/blog/rss/
 
 # Gartner
 https://www.gartner.com/newsroom/rss
+
+# Reddit
+# Flux "top de la semaine" pour privilegier les discussions de qualite plutot que le bruit du jour.
+# Analyser aussi les commentaires les mieux notes des threads retenus, pas seulement le post initial.
+https://www.reddit.com/r/agile/top/.rss?t=week
+https://www.reddit.com/r/scrum/top/.rss?t=week
+https://www.reddit.com/r/ProductManagement/top/.rss?t=week
+https://www.reddit.com/r/ExperiencedDevs/top/.rss?t=week
+https://www.reddit.com/r/artificial/top/.rss?t=week
+https://www.reddit.com/r/MachineLearning/top/.rss?t=week
+https://www.reddit.com/r/OpenAI/top/.rss?t=week
+https://www.reddit.com/r/ClaudeAI/top/.rss?t=week
+https://www.reddit.com/r/singularity/top/.rss?t=week
+
+# Recherche web ciblee
+# Pas un flux RSS fixe : a chaque execution, lancer des recherches ciblees sur les sujets emergents
+# de la semaine (issus des autres sources), en priorisant dans l'ordre : sources officielles
+# (blogs d'entreprise, annonces gouvernementales), documentation technique, publications de
+# recherche (papers, rapports d'organismes serieux), puis medias specialises reconnus.
+# Toujours dater et sourcer precisement, ne jamais citer un resultat de recherche sans verifier
+# le lien reel qu'il pointe vers la bonne page.

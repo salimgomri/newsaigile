@@ -50,3 +50,9 @@ Style Apple. Police système SF. Beaucoup de blanc. Jaune AIgile #FEDB10 en acce
 - Filtrer : IA, LLM, agents, automation, machine learning, Big Tech, Scrum, Agile, coaching, facilitation, influenceurs tech et agile.
 - Ignorer silencieusement tout flux vide, hors sujet ou bloqué.
 - Si la journée est pauvre, le dire, ne pas gonfler.
+
+## Sources complémentaires : Reddit, Hacker News, recherche ciblée
+- Reddit (liste de subreddits dans sources.txt) : ne pas s'arrêter au titre du post, lire les commentaires les mieux notés des discussions retenues, c'est souvent là que se trouve le vrai signal ou la contradiction.
+- Hacker News : même logique, les fils de commentaires valent autant que l'article, surtout quand ils contredisent ou nuancent le point de vue de l'article.
+- Recherche web ciblée : à utiliser pour combler les trous ou creuser un sujet émergent repéré ailleurs, priorité dans l'ordre aux sources officielles, à la documentation technique, aux publications de recherche, puis aux médias spécialisés reconnus. Toujours vérifier le lien réel avant de le citer.
+- Pour chaque source complémentaire retenue, la rigueur habituelle s'applique en plus fort : niveau de fiabilité explicite, contradictions actives cherchées entre commentateurs, jamais de citation d'un commentaire Reddit ou HN comme une vérité établie sans le qualifier comme une opinion individuelle.
