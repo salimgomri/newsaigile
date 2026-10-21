@@ -113,3 +113,8 @@ https://www.reddit.com/r/singularity/top/.rss?t=week
 # recherche (papers, rapports d'organismes serieux), puis medias specialises reconnus.
 # Toujours dater et sourcer precisement, ne jamais citer un resultat de recherche sans verifier
 # le lien reel qu'il pointe vers la bonne page.
+
+# Newsletter par mail : There's An AI For That (TAAFT)
+# Le site est bloque par Cloudflare (403), donc pas de lecture web. La newsletter arrive dans Gmail (salim.gocoach@gmail.com).
+# A chaque execution, chercher dans Gmail : from:hi@mail.theresanaiforthat.com newer_than:2d (puis get_thread pour lire le numero).
+# Source agregateur, pas primaire : ne jamais retenir un signal sans le trianguler avec une source primaire ou independante.
