@@ -42,6 +42,16 @@ Toujours indiquer en haut de l'onglet Résumé la fenêtre couverte ce jour.
 - Trois sections : IA et Big Tech, Scrum et Agile, Influenceurs et Thought Leaders.
 - Par article : titre en français, titre original, source, date au format JJ/MM/AAAA, lien, résumé 1 à 2 phrases, bloc "Pourquoi c'est important pour un coach Agile", tags mots-clés, 1 à 4 angles de post.
 
+### 4. Défi LinkedIn (quatrième partie, après la Veille)
+Voir le prompt de la routine : actus grand public, sujets travail qui font débat, mèmes et POV en texte, formats vidéo, article d'expert à qui répondre.
+
+### Version audio pour le podcast (bloc dans le Résumé, chaque jour)
+- À la fin du Résumé, ajouter un bloc "Version audio pour ton podcast" : le texte de la synthèse réécrit pour être lu à voix haute, prêt à coller dans Qwen TTS avec l'échantillon de voix de Salim.
+- Écriture orale : phrases courtes, chiffres et dates en lettres, pas de lien ni de sigle difficile à prononcer, tutoiement, aucun emoji, aucun tiret long.
+- Contenu : fenêtre couverte, signal principal avec la distinction annonce contre preuve, qualification, À surveiller, puis la phrase de conviction si elle est naturelle. Journée pauvre : le dire en deux phrases, sans remplissage.
+- La routine ne génère pas le fichier audio (pas d'accès à Qwen TTS ni à la voix de Salim) : elle fournit le texte et le dit clairement.
+- Le samedi, le texte couvre la semaine (4 à 6 mouvements), pas la somme des jours.
+
 ## Design
 Style Apple. Police système SF. Beaucoup de blanc. Jaune AIgile #FEDB10 en accent fin uniquement, jamais en aplats. Texte navy #1A1A2E. Cartes arrondies, filets discrets. Trois onglets en haut, sticky, plus un contrôle segmenté par onglet pour filtrer les catégories. Reproduire fidèlement le gabarit template-veille-aigile.html.
 
