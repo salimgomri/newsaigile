@@ -1,0 +1,17 @@
+Bonjour, c'est la veille AIgile du mercredi vingt et un octobre deux mille vingt-six. Fenêtre couverte : la journée d'hier, mardi vingt octobre.
+
+Aujourd'hui, la vraie histoire, c'est l'écart entre ce que les éditeurs annoncent et ce que les mesures indépendantes confirment.
+
+Hier, OpenAI a publié des témoignages clients. Un franchisé dit avoir réduit de quatre-vingt-quatorze pour cent le temps de rapprochement de trésorerie. Une plateforme d'investissement parle de quatre-vingt-huit virgule six pour cent de concordance avec le jugement d'investisseurs seniors. Ce sont des études de cas publiées par l'éditeur. Ce n'est pas une mesure indépendante.
+
+Le dix-neuf octobre, Kapoor, Narayanan et leurs coauteurs publient un travail sur l'évaluation des agents. D'après leur billet, les résultats obtenus à une échelle ne se transfèrent pas automatiquement à une autre, et un essai randomisé du groupe METR a montré que des outils d'agents ont allongé le temps de réalisation de tâches de développement. Attention, je n'ai lu que le billet, pas le papier.
+
+Même logique côté Scrum. Mountain Goat rappelle qu'une intelligence artificielle peut écrire des centaines d'éléments de backlog, mais qu'un backlog volumineux n'est pas un backlog complet. Le volume n'est pas la valeur.
+
+Qualification : signal émergent. Les sources convergent, mais elles ne sont pas de qualité égale.
+
+Deuxième signal : Meta. En septembre, Mark Zuckerberg disait que Muse était construit dès l'origine pour la confidentialité et la sécurité. Hier, des chercheurs de Claroc, rapportés par Ars Technica, ont énuméré six mille huit cents liens de partage de conversations. Meta a suspendu la fonction. Le même jour, Meta retire le mot « train » de ses conditions commerciales, et des juristes estiment que la formulation reste très large. Pour un dirigeant ou un DSI, le point est simple : tout assistant qui crée des liens partageables est un canal de fuite potentiel.
+
+À surveiller : l'entrée en vigueur des conditions commerciales de Meta le trente octobre, et la tension sur le financement de l'infrastructure IA, avec CoreWeave et Anthropic.
+
+Un chiffre d'éditeur n'est pas une mesure. On mesure la vélocité. Je rends visible la solidité.
