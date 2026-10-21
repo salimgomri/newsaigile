@@ -1,3 +1,11 @@
+# Notes de collecte (verifie le 21/10/2026)
+# Retires car sans flux exploitable : The Batch (404), Agile Alliance (403 anti-bot), Big Agile (pas de RSS),
+# Steve Pereira (feed Substack redirige vers une page HTML), VentureBeat (429 permanent), Meta AI blog (404),
+# Gartner newsroom (403). Alternatives deja couvertes : TechCrunch, The Verge, Ars Technica, about.fb.com.
+# Collecte : utiliser fetch_feeds.py (sequentiel, retries, tolerant au BOM). Ne pas lancer les 60 requetes en parallele :
+# Reddit et d'autres sites repondent 429 ou vide sous rafale, ce qui faussait l'etat des sources.
+# Pour Big Agile et Agile Alliance, passer par la recherche web ciblee.
+
 # IA
 https://www.marktechpost.com/feed/
 https://thegradient.pub/rss/
@@ -6,7 +14,6 @@ https://huggingface.co/blog/feed.xml
 https://simonwillison.net/atom/entries/
 https://jack-clark.net/feed/
 https://magazine.sebastianraschka.com/feed/
-https://www.deeplearning.ai/the-batch/feed/
 
 # IA Critique
 https://garymarcus.substack.com/feed
@@ -19,16 +26,15 @@ https://blog.google/innovation-and-ai/technology/ai/rss/
 https://mistral.ai/news/rss
 
 # Scrum / Agile
-https://www.agilealliance.org/blog/feed/
 https://www.mountaingoatsoftware.com/blog/rss
 https://www.scruminc.com/feed/
 https://theliberators.com/feed/
-https://www.infoq.com/agile/feed/
-https://www.infoq.com/scrum/feed/
+https://feed.infoq.com/agile
+https://feed.infoq.com/scrum
 
 # Engineering / Delivery
 https://martinfowler.com/feed.atom
-https://www.infoq.com/feed/
+https://feed.infoq.com/
 # Hacker News : lire aussi les fils de commentaires des threads pertinents, pas seulement les titres
 https://news.ycombinator.com/rss
 
@@ -37,29 +43,24 @@ https://www.lemonde.fr/intelligence-artificielle/rss_full.xml
 https://www.lemonde.fr/intelligences-artificielles-generatives/rss_full.xml
 https://www.lemonde.fr/openai/rss_full.xml
 https://www.usine-digitale.fr/arc/outboundfeeds/rss/
-https://www.lemondeinformatique.fr/flux-rss/
+https://www.lemondeinformatique.fr/flux-rss/thematique/toutes-les-actualites/rss.xml
 https://www.laquadrature.net/feed/
-
-# Organisation / Management
-https://big-agile.com/blog
 
 # Big Tech
 https://blog.google/rss/
 https://about.fb.com/news/feed/
 https://www.aboutamazon.com/news/rss
 https://platformer.substack.com/feed
-https://www.ben-evans.com/benedictevans/rss
+https://www.ben-evans.com/benedictevans?format=rss
 
 # Influenceurs
 https://blog.samaltman.com/rss.xml
 https://www.stratechery.com/feed/
-https://stevepereira.substack.com/feed
 
 # IA / News & Analysis
 https://www.technologyreview.com/topic/artificial-intelligence/feed/
 https://techcrunch.com/category/artificial-intelligence/feed/
 https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
-https://venturebeat.com/category/ai/feed/
 https://arstechnica.com/ai/feed/
 
 # IA / Recherche
@@ -74,14 +75,10 @@ https://developer.nvidia.com/blog/feed/
 https://aws.amazon.com/blogs/machine-learning/feed/
 
 # IA / Agents
-https://blog.langchain.dev/rss/
+https://www.langchain.com/blog/rss.xml
 
 # IA / Sources primaires
-https://blogs.microsoft.com/ai/feed/
-https://ai.meta.com/blog/rss/
-
-# Gartner
-https://www.gartner.com/newsroom/rss
+https://news.microsoft.com/source/topics/ai/feed/
 
 # Reddit
 # Flux "top de la semaine" pour privilegier les discussions de qualite plutot que le bruit du jour.
