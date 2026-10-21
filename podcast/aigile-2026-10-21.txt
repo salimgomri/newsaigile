@@ -1,0 +1,9 @@
+AIgile news du 21 octobre 2026. Voici la veille du mardi 20 octobre.
+
+Le signal du jour tient en une phrase : l'IA accélère chaque personne, mais pas forcément la livraison. Sur Reddit, un product manager d'une entreprise de transport raconte que son équipe de huit personnes code plus vite avec Claude Code et Copilot, que la QA s'engorge, et que le délai de livraison ne bouge pas. C'est un témoignage individuel, pas une preuve. Mais il rejoint une mesure de Scrum Inc, publiée hier : neuf organisations sur dix ont l'optimisation organisationnelle comme point le plus faible. Scrum Inc vend du conseil en passage à l'échelle, donc garde la distance qu'il faut. La télémétrie d'éditeurs d'outils va dans le même sens, avec les mêmes réserves.
+
+Deuxième sujet : Meta Muse. Le mois dernier, Mark Zuckerberg disait Muse conçu dès le départ pour la confidentialité. Des chercheurs de la société Claroc affirment avoir retrouvé plus de six mille huit cents liens de conversations partagées. Meta a suspendu la fonction de partage. Ars Technica et The Verge rapportent la même enquête, donc une seule source pour l'ampleur, mais la pause, elle, est confirmée par Meta.
+
+Une alerte au passage : un article de MIT Technology Review sur l'économie de l'IA en entreprise est du contenu sponsorisé par HPE, avec des tests dits indépendants commandés par HPE.
+
+Ce que ça change pour toi : mesurer la vitesse d'un développeur ne dit rien de la solidité de la chaîne. On mesure la vélocité. Je rends visible la solidité.
