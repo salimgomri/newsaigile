@@ -1,0 +1,11 @@
+AIgile news du mercredi 21 octobre 2026. Fenêtre couverte : la journée d'hier, mardi 20 octobre.
+
+Journée moyenne, deux signaux.
+
+Premier signal : l'écart entre le discours et le terrain, côté Meta. Mark Zuckerberg présentait Muse le mois dernier comme conçu dès le départ pour la vie privée et la sécurité. Hier, selon Ars Technica, des chercheurs de la société Claroc ont recensé 6 800 liens de conversations partagées par des utilisateurs de Muse. Parmi les quelques centaines qu'ils ont ouverts, des informations personnelles et professionnelles qui n'étaient pas faites pour être publiques. Meta a suspendu la fonction de partage le temps d'examiner le rapport. Précision importante : cette histoire repose sur un seul rapport, celui de Claroc. The Verge reprend Ars, ce n'est pas une confirmation indépendante. Et la même semaine, Meta retire le mot train de ses conditions commerciales qui entrent en vigueur le 30 octobre, sans prévenir ses utilisateurs, d'après Ars.
+
+Deuxième signal : l'IA accélère chaque personne, mais pas forcément la livraison. Un chef de produit raconte sur Reddit que son équipe de huit code plus vite avec l'IA, que la QA s'engorge et que le contexte manque toujours. C'est un témoignage, pas une preuve. La télémétrie de l'éditeur Faros AI en 2025 va dans le même sens, avec plus de pull requests fusionnées mais un temps de revue qui augmente. Là aussi, c'est une source d'éditeur. Et Scrum Inc publie hier que sur 59 organisations, la coordination entre équipes est la dimension la plus faible. Ce n'est pas une étude sur l'IA, mais elle montre où se loge le goulot.
+
+Ce que tu retiens : accélérer une étape quand le goulot est ailleurs fabrique du stock, pas de la livraison. On mesure la vélocité. Je rends visible la solidité.
+
+À surveiller : la suite donnée par Meta au rapport Claroc, et l'entrée en vigueur de ses conditions commerciales le 30 octobre.
