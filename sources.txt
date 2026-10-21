@@ -25,6 +25,8 @@ https://www.agilealliance.org/wp-json/wp/v2/posts?per_page=10
 https://www.mountaingoatsoftware.com/blog/rss
 https://www.scruminc.com/feed/
 https://theliberators.com/feed/
+# JVS Management / ScrumAI.org (Jeff Sutherland). Le flux du blog (/blog/feed/) est vide, utiliser le flux du site.
+https://jvsmanagement.com/feed/
 https://feed.infoq.com/agile
 https://feed.infoq.com/scrum
 
