@@ -6,7 +6,8 @@ https://huggingface.co/blog/feed.xml
 https://simonwillison.net/atom/entries/
 https://jack-clark.net/feed/
 https://magazine.sebastianraschka.com/feed/
-https://www.deeplearning.ai/the-batch/feed/
+# The Batch : plus de flux RSS (404 sur toutes les URL testees). Passer par la recherche web ciblee.
+# https://www.deeplearning.ai/the-batch/feed/
 
 # IA Critique
 https://garymarcus.substack.com/feed
@@ -19,12 +20,13 @@ https://blog.google/innovation-and-ai/technology/ai/rss/
 https://mistral.ai/news/rss
 
 # Scrum / Agile
-https://www.agilealliance.org/blog/feed/
+# Pas de RSS : API WordPress JSON (lire title.rendered, link, date)
+https://www.agilealliance.org/wp-json/wp/v2/posts?per_page=10
 https://www.mountaingoatsoftware.com/blog/rss
 https://www.scruminc.com/feed/
 https://theliberators.com/feed/
-https://www.infoq.com/agile/feed/
-https://www.infoq.com/scrum/feed/
+https://feed.infoq.com/agile
+https://feed.infoq.com/scrum
 
 # Engineering / Delivery
 https://martinfowler.com/feed.atom
@@ -37,29 +39,32 @@ https://www.lemonde.fr/intelligence-artificielle/rss_full.xml
 https://www.lemonde.fr/intelligences-artificielles-generatives/rss_full.xml
 https://www.lemonde.fr/openai/rss_full.xml
 https://www.usine-digitale.fr/arc/outboundfeeds/rss/
-https://www.lemondeinformatique.fr/flux-rss/
+https://www.lemondeinformatique.fr/rss/rss.xml
+https://www.lemondeinformatique.fr/flux-rss/thematique/intelligence-artificielle/rss.xml
 https://www.laquadrature.net/feed/
 
 # Organisation / Management
-https://big-agile.com/blog
+https://big-agile.com/rss/blog
 
 # Big Tech
 https://blog.google/rss/
 https://about.fb.com/news/feed/
 https://www.aboutamazon.com/news/rss
 https://platformer.substack.com/feed
-https://www.ben-evans.com/benedictevans/rss
+https://www.ben-evans.com/benedictevans?format=rss
 
 # Influenceurs
 https://blog.samaltman.com/rss.xml
 https://www.stratechery.com/feed/
-https://stevepereira.substack.com/feed
+# stevepereira.substack.com : page protegee par JavaScript, flux illisible. Verifier l'URL reelle de la publication.
+# https://stevepereira.substack.com/feed
 
 # IA / News & Analysis
 https://www.technologyreview.com/topic/artificial-intelligence/feed/
 https://techcrunch.com/category/artificial-intelligence/feed/
 https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
-https://venturebeat.com/category/ai/feed/
+# VentureBeat : 429 persistant (rate limit anti-bot). Passer par la recherche web ciblee.
+# https://venturebeat.com/category/ai/feed/
 https://arstechnica.com/ai/feed/
 
 # IA / Recherche
@@ -74,16 +79,19 @@ https://developer.nvidia.com/blog/feed/
 https://aws.amazon.com/blogs/machine-learning/feed/
 
 # IA / Agents
-https://blog.langchain.dev/rss/
+https://www.langchain.com/blog/rss.xml
 
 # IA / Sources primaires
-https://blogs.microsoft.com/ai/feed/
-https://ai.meta.com/blog/rss/
+https://www.microsoft.com/en-us/ai/blog/feed/
+# ai.meta.com : plus de flux RSS (404). Passer par la recherche web ciblee.
+# https://ai.meta.com/blog/rss/
 
 # Gartner
-https://www.gartner.com/newsroom/rss
+# Gartner : 403 sur toutes les URL testees (blocage anti-bot). Passer par la recherche web ciblee.
+# https://www.gartner.com/newsroom/rss
 
 # Reddit
+# Reddit : exige un User-Agent de navigateur (sinon 429 ou 403). Utiliser un UA type Mozilla/5.0 Chrome.
 # Flux "top de la semaine" pour privilegier les discussions de qualite plutot que le bruit du jour.
 # Analyser aussi les commentaires les mieux notes des threads retenus, pas seulement le post initial.
 https://www.reddit.com/r/agile/top/.rss?t=week
