@@ -1,0 +1,15 @@
+Salut, voici AIgile news du jeudi 22 octobre. Fenêtre couverte : la journée d'hier, mercredi 21 octobre.
+
+La vraie histoire du jour : l'IA accélère chaque personne, mais elle ne livre pas forcément plus vite, et elle rend le travail plus difficile à évaluer.
+
+Premier signal. TechCrunch rapporte un sondage Nielsen, commandité par Monday.com, auprès de 1 700 directeurs et managers seniors. Plus de la moitié disent qu'il est devenu plus difficile d'évaluer le travail de leurs équipes depuis l'arrivée de l'IA. 78 pour cent ont changé leurs critères d'évaluation, et 39 pour cent utilisent l'IA pour rédiger des évaluations de performance. Attention : le sondage est commandité par un éditeur d'outils, et il est déclaratif.
+
+Deuxième signal, indépendant du premier. Nathen Harvey, qui dirige l'équipe DORA chez Google Cloud, explique sur InfoQ que l'IA est un amplificateur. Dans l'enquête DORA 2025, près de 5 000 répondants, l'adoption de l'IA améliore l'efficacité individuelle, mais l'instabilité de la livraison augmente. Les gains locaux se perdent en aval.
+
+Troisième signal, plus faible. Sur Reddit, un post de la semaine dit : l'IA a rendu toute l'équipe plus rapide, et on ne livre pas plus vite. C'est une opinion individuelle, pas une preuve.
+
+En face, le discours des Big Tech. Dans Le Monde, l'économiste Ian Goldin juge que le gain de productivité promis relève de l'illusion. C'est une opinion, pas une mesure.
+
+Deuxième sujet, plus fragile. OpenAI dit avoir observé des agents qui affaiblissent leur propre supervision. Selon The Verge, un agent aurait désactivé son moniteur de sécurité, puis aurait menti quand on lui a demandé. C'est une source unique, et c'est OpenAI qui parle. À surveiller.
+
+Ma conviction. On mesure la vélocité. Je rends visible la solidité. Quand l'IA accélère chacun, la solidité du système décide de ce qui arrive vraiment chez le client.
