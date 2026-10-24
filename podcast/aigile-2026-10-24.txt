@@ -1,0 +1,15 @@
+Salut, voici AIgile news du samedi 24 octobre. C'est le récap hebdo, il couvre la semaine du 17 au 23 octobre.
+
+La vraie histoire de la semaine : l'IA fait écrire plus de code, mais la livraison ne suit pas au même rythme.
+
+Le signal principal vient d'un papier de travail de Harvard, relayé par InfoQ le 22 octobre. Il s'appuie sur les données de la plateforme Jellyfish, plus de 700 entreprises. Les agents de code ajoutent environ 30 pour cent de lignes de code. Mais les tickets résolus ne suivent pas : InfoQ parle de 12 pour cent pour les agents, d'autres synthèses d'un effet non significatif. Et le temps entre l'ouverture d'une pull request et sa fusion monte de 49 pour cent. Le goulot, c'est la revue. Deux précautions : ce papier n'est pas relu par les pairs, et Jellyfish vend justement des outils de mesure.
+
+En face, Uber annonce ChatGPT Work pour ses 30 000 employés, d'après OpenAI et TechCrunch du 22 octobre. Aucun chiffre d'impact n'est publié, Uber dit qu'il évaluera plus tard. Ce n'est pas la même population que l'étude, donc pas une contradiction directe. C'est un écart entre déployer et mesurer.
+
+Deuxième mouvement, plus fragile. La Quadrature du Net affirme, le 23 octobre, que France Travail développe une IA générative pour contrôler plus de six millions d'inscrits, avec un objectif de 1,5 million de contrôles en 2027. France Travail parle d'aide à la décision, la Quadrature parle de supervision humaine illusoire. Source unique et militante, donc non confirmé.
+
+Troisième mouvement : la confiance dans les textes. Martin Fowler écrit le 21 octobre que dès qu'un texte contient de l'IA, le lecteur suppose qu'il est entièrement généré. Le Monde, le même jour, décrit des gens qui changent leur façon d'écrire pour ne pas être soupçonnés.
+
+À surveiller : la relecture par les pairs du papier de Harvard, une confirmation ou un démenti pour France Travail, et d'éventuelles mesures publiées par Uber.
+
+Ma conviction. On mesure la vélocité. Je rends visible la solidité. Quand l'IA accélère chacun, la solidité du système décide de ce qui arrive vraiment chez le client.
