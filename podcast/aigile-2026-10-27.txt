@@ -1,0 +1,17 @@
+AIgile news du 27 octobre 2026. Fenêtre couverte : la journée d'hier, lundi 26 octobre.
+
+Le signal du jour tient en une phrase : les revenus des fournisseurs d'IA explosent, et ça ne prouve pas que leurs clients gagnent quoi que ce soit.
+
+D'un côté, Anthropic a déposé son dossier d'introduction en Bourse. D'après TechCrunch, les revenus du premier semestre 2026 atteignent 16,3 milliards de dollars, contre 1,2 milliard un an plus tôt. C'est un chiffre annoncé par l'entreprise dans un document réglementaire, repris par plusieurs médias. Ça reste une seule source primaire, le dossier lui-même.
+
+De l'autre, Torsten Slok, économiste chez Apollo, écrit que l'IA n'a produit aucun gain financier visible pour les entreprises américaines hors du secteur technologique. Marges stables, chiffre d'affaires par employé stable. Attention, c'est une note d'analyse, pas une étude complète, et l'effet peut simplement arriver plus tard.
+
+Les deux ne se contredisent pas. Ils racontent deux moitiés de la même histoire : ce que les entreprises dépensent en IA, et ce qu'elles en retirent. Le premier chiffre est mesuré. Le second reste à démontrer.
+
+Même logique côté OpenAI. L'entreprise annonce que son système a réfuté une hypothèse de l'informatique théorique vieille de vingt-sept ans. La preuve a été vérifiée par un outil formel, mais les chercheurs qui ont posé l'hypothèse n'ont pas encore rendu leur verdict. Tant qu'ils n'ont pas relu, c'est une annonce, pas un résultat acquis.
+
+Et chez Microsoft, selon The Verge, des départs volontaires sont proposés à jusqu'à soixante mille salariés. Une seule source pour l'instant, et rien ne prouve que l'IA en soit la cause.
+
+À surveiller : le verdict des chercheurs sur la preuve d'OpenAI, la suite de l'affaire Microsoft, et ce que Gary Marcus appelle les omissions du dossier d'Anthropic, notamment le troisième trimestre.
+
+On mesure la vélocité. Je rends visible la solidité.
