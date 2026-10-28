@@ -1,0 +1,9 @@
+AIgile news du 28 octobre 2026. Fenêtre couverte : la veille, mardi 27 octobre.
+
+La vraie histoire du jour, c'est l'écart entre ce qu'on mesure et ce qu'on livre. Atlassian publie son étude sur l'expérience développeur 2026, relayée par InfoQ le 27 octobre. La part de développeurs qui disent gagner dix heures ou plus par semaine grâce à l'IA passe de 68 % à 26 % en un an. Attention, ce sont des déclarations, pas de la télémétrie, l'étude vient d'un éditeur d'outils, et l'échantillon a changé entre les deux éditions. Le chiffre qui compte est ailleurs : 60 % des répondants disent que l'usage de l'IA sert de signal de productivité chez eux, et 41 % avouent en faire plus que nécessaire pour répondre aux attentes.
+
+Et pourtant, Amazon publie le même jour un mémo de sa direction technique qui dit l'inverse : manier avec prudence les métriques d'usage, tokens et adoption d'outils, et ne jamais en faire des objectifs. Un mémo n'est pas une pratique démontrée, mais le désaccord entre le discours et ce que les équipes déclarent vivre est exactement le signal à suivre. Même étude, autre donnée : 65 % passent du temps à corriger des résultats qui ne respectaient pas l'intention. Le goulot a quitté l'écriture, il est dans la relecture.
+
+À surveiller : le plan du Delaware pour des sociétés gérées par un agent IA, encore préliminaire, et les objectifs de réduction d'effectifs de l'État néerlandais, dont le chiffre de 25 000 postes n'est pas confirmé.
+
+On mesure la vélocité. Je rends visible la solidité.
