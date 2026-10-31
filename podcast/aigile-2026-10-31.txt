@@ -1,0 +1,13 @@
+AIgile news, samedi 31 octobre 2026. Récap de la semaine du 24 au 31 octobre.
+
+Cette semaine, l'IA a rencontré un mur, et ce n'est pas un mur technique. C'est un mur de solidité.
+
+Premier mouvement : l'argent. Selon TechCrunch, Alphabet, Amazon, Meta et Microsoft annoncent ensemble plus de 740 milliards de dollars d'investissements pour 2026. Trois de ces quatre groupes affichent un flux de trésorerie négatif, sur des périodes différentes. Jeudi, Alphabet a perdu 12 pour cent en une séance. Le Monde, Usine Digitale et Ars Technica racontent la même tension côté Google : la recherche avec IA rapporte moins.
+
+Deuxième mouvement : l'écart entre le discours et l'usage. DoorDash affirme avoir divisé par huit la latence de son parcours de réassort grâce à ses agents maison. Ce sont ses chiffres, sans méthodologie publiée. Et selon Ars Technica, les agents externes n'ont généré que quelques centaines de commandes. Les agents marchent peut-être chez eux. Dehors, c'est une autre histoire.
+
+Troisième mouvement : la fiabilité. Rachel Laycock, de Thoughtworks, rappelle sur le site de Martin Fowler que le rapport DORA 2025 associe l'IA à plus de débit de livraison, mais à moins de stabilité. Et Alasdair Allan, à QCon, cite une étude METR où des développeurs expérimentés étaient plus lents avec l'IA, alors qu'ils se croyaient plus rapides.
+
+À surveiller : la notation de crédit d'Anthropic après son introduction en bourse, rapportée par une seule source, et la sécurité des extensions d'agents, après la porte dérobée de douze heures sur une extension Claude Code dans la boutique de Cursor.
+
+La conviction : une équipe qui accélère sans fondations ne livre pas plus, elle accumule plus vite. On mesure la vélocité. Je rends visible la solidité.
