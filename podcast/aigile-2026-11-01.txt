@@ -1,0 +1,11 @@
+AIgile news du 1er novembre 2026. Fenêtre couverte : la journée du samedi 31 octobre, avec les publications de vendredi soir.
+
+La vraie histoire du moment, c'est l'écart entre la demande et la facture. Côté demande, Amazon annonce que AWS a progressé de 39,3 % sur un an, sa plus forte croissance depuis près de cinq ans, avec 578 milliards de dollars de commandes en carnet. Ce sont les chiffres d'Amazon. Côté facture, TechCrunch rapporte que le flux de trésorerie disponible d'Amazon est négatif de 42,4 milliards sur douze mois, que celui d'Alphabet est négatif pour le deuxième trimestre de suite, et qu'Alphabet a connu sa pire journée en Bourse, avec 500 milliards de capitalisation effacés. Le Monde décrit une Bourse de New York saisie d'effroi. Ce que ça montre : la demande est réelle, le modèle financier n'est pas démontré. Ce que ça ne montre pas : une bulle.
+
+Deuxième fil, plus proche de ton terrain : les agents qui marchent sont ceux qu'on a cadrés. Google dit que son agent PageBreak a trouvé plus de 500 failles XSS, avec presque aucun faux positif, parce qu'aucune alerte ne sort sans un validateur déterministe. DoorDash dit avoir gagné environ 34 % de commandes sur un parcours de réachat. Ce sont des déclarations d'entreprise. Et le PDG de DoorDash reconnaît que les agents externes ont généré quelques centaines de commandes, pour près d'un milliard au trimestre.
+
+Troisième signal, plus faible : une conférence sur InfoQ rappelle l'étude METR où des développeurs expérimentés étaient 19 % plus lents avec l'IA tout en se croyant plus rapides. Superviser l'IA demande des compétences que l'IA fait perdre aux juniors.
+
+À surveiller : la notation de crédit d'Anthropic après son introduction en Bourse, selon le Financial Times, et l'extension Anthropic sur Cursor, restée piégée pendant près de douze heures.
+
+On mesure la vélocité de la dépense. Il reste à rendre visible la solidité de ce qu'elle achète.
