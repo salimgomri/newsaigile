@@ -1,0 +1,13 @@
+AIgile news du 4 novembre 2026. Fenêtre couverte : la journée d'hier, mardi 3 novembre.
+
+La vraie histoire du jour n'est pas une fonctionnalité, c'est la facture. Le dépôt financier mis à jour d'Anthropic, relayé par TechCrunch, montre un chiffre d'affaires de 17 milliards de dollars au troisième trimestre, contre 11,5 milliards au précédent. Dans le même temps, le calcul passe de 48 à 58 pour cent du chiffre d'affaires, avec 5 milliards achetés en urgence sur des engagements de court terme. Ces chiffres reposent sur une seule source médiatique, ils ne sont pas recoupés.
+
+Le même jour, Anthropic publie une piste de recherche appelée FlashProve, pour prouver cryptographiquement quel modèle a produit une réponse. L'argument : empêcher un fournisseur de remplacer discrètement un modèle par un moins cher. Les chercheurs parlent eux-mêmes de progrès intermédiaire, et aucun déploiement n'est prévu.
+
+Lis les deux ensemble. La croissance est réelle, la marge est sous pression, et la confiance dans ce que tu achètes devient un sujet de gouvernance. Rien ne prouve que ta facture va monter. Rien ne prouve le contraire non plus. C'est un signal émergent, pas une tendance.
+
+Deuxième fil, plus léger sur la preuve. La newsletter TAAFT rapporte un nouveau test de Stanford sur cinquante défauts célèbres de l'IA : près de la moitié auraient disparu avec les modèles récents, mais la complaisance, cette tendance à te donner raison, resterait. Source de seconde main, les chiffres ne sont pas confirmés.
+
+À surveiller : l'évolution des marges d'Anthropic, et les détails que Google promet aux écoles sur la désactivation de ses outils d'IA.
+
+Une équipe qui adopte l'IA doit pouvoir répondre à deux choses : ce que ça coûte, et ce que ça prouve. On mesure la vélocité. Je rends visible la solidité.
