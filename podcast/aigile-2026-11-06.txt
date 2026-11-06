@@ -1,0 +1,9 @@
+AIgile news du vendredi 6 novembre 2026. Fenêtre couverte : la journée d'hier, jeudi 5 novembre.
+
+La vraie histoire du moment, c'est que le financement de l'IA vient de rencontrer un électeur. Mardi, les démocrates ont pris le Congrès, et The Verge rapporte que plusieurs campagnes se sont jouées sur la responsabilité des entreprises d'IA. Ars Technica cite un suivi de Redbud Consulting : sur 44 mesures qui cherchaient à restreindre les data centers dans dix États, 38 sont passées. Jeudi, Le Monde indique que le Nasdaq a perdu plus de 5,5 pour cent. Mais attention, la causalité n'est pas établie. Le même Le Monde titrait mercredi que Wall Street saluait le statu quo, et le lobby Chamber of Progress soutient que c'est un vote anti-Trump, pas anti-tech. Les sondages de sortie des urnes cités par Ars classent le coût de la vie devant l'IA. Donc oui, un signal fort, non, pas une preuve que les électeurs ont voulu freiner l'IA.
+
+Deuxième signal, plus proche de ton terrain. Selon Bloomberg, repris par L'Usine Digitale, Apple resserre les budgets d'IA de ses employés tout en les poussant à s'en servir. C'est une source unique, donc non confirmé. Et un benchmark nommé BOBA, résumé par la newsletter TAAFT, indique que des agents de code réussissent 95 pour cent des demandes isolées, mais 51 pour cent quand elles s'enchaînent, parce qu'ils considèrent le travail terminé dès que leurs propres tests passent. Je n'ai pas pu vérifier ces chiffres dans le papier lui-même.
+
+Ce que ça dit : la vitesse devient visible, et son coût aussi. La solidité, elle, reste invisible tant que personne ne la rend visible. On mesure la vélocité. Je rends visible la solidité.
+
+À surveiller : si la baisse des valeurs IA se prolonge la semaine prochaine, et si d'autres médias confirment la baisse des budgets IA chez Apple.
