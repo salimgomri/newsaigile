@@ -1,0 +1,15 @@
+AIgile news, samedi 7 novembre 2026. Récap de la semaine.
+
+Cette semaine, deux récits se sont affrontés sur l'IA. Le Monde titre, le 5 novembre, que la victoire démocrate aux élections de mi-mandat a fait exploser la bulle de l'IA. Gary Marcus parle de deux mille cinq cents milliards de dollars évaporés en une séance. Ce chiffre repose sur une seule source, derrière un abonnement, et je n'ai pas trouvé de confirmation indépendante.
+
+En face, Stratechery explique que les cours reflètent des attentes, pas la réalité. Selon Stripe, les entreprises SaaS non IA continuent de croître de plus de trente pour cent par an, alors que leurs actions chutent. Attention, cela ne prouve pas qu'il n'y a pas de bulle IA, cela montre seulement qu'un cours de bourse n'est pas un indicateur de performance.
+
+Côté financement, Bloomberg, repris par TechCrunch, rapporte qu'OpenAI aurait levé onze milliards à douze cent cinquante milliards de valorisation, sous l'objectif évoqué en septembre. Même source, Anthropic verrait ses investisseurs viser une valorisation d'introduction en bourse nettement plus basse. Une source unique, non confirmée par les entreprises.
+
+Deuxième mouvement: les centres de données sont devenus un sujet électoral. Stratechery, MIT Technology Review et Ars Technica convergent. C'est une tendance confirmée, avec une conséquence pour les DSI: le risque de régulation et de capacité entre dans les plans.
+
+Troisième mouvement: la gouvernance des agents. GitLab, AWS et Okta publient sur l'identité, l'audit et les approbations des agents. Ce sont des annonces d'éditeurs, pas des preuves d'impact. Le signal est réel, l'adoption n'est pas démontrée.
+
+À surveiller: la clôture du tour d'OpenAI, et toute confirmation indépendante du chiffre de deux mille cinq cents milliards.
+
+Le marché mesure des attentes. Moi, depuis 2003, je regarde ce qui tient quand ça secoue. On mesure la vélocité. Je rends visible la solidité.
