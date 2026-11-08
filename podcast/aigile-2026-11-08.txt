@@ -1,0 +1,11 @@
+AIgile news du 8 novembre 2026. Fenêtre couverte : les dernières vingt-quatre heures.
+
+Le signal du jour : la vitesse annoncée monte, la preuve ne suit pas toujours.
+
+Côté argent, Bloomberg rapporte qu'OpenAI serait valorisé à un virgule vingt-cinq trillion de dollars, après avoir visé un virgule quatre. Côté usage, les données de Ramp montrent une dépense en tokens qui n'a progressé que d'un virgule cinq pour cent en août et septembre, contre quarante-deux pour cent en juillet. Attention : l'économiste de Ramp explique que ce n'est pas un problème de demande, mais de baisses de prix et de maîtrise des coûts. Le titre est plus fort que le fond. Ce n'est pas une bulle qui éclate, c'est un signal à surveiller.
+
+Deuxième histoire. METR estime qu'Anthropic améliore ses modèles environ deux fois plus vite qu'avant, surtout grâce à l'IA utilisée en interne. Mais la fourchette honnête va de un virgule trois à trois fois, et Anthropic a expurgé une partie des preuves. Chez Grab, le volume de changements par version a augmenté, et l'équipe a dû empiler des garde-fous : déploiements progressifs, interrupteurs de fonctionnalités, tri automatique des crashs. Et Rachel Laycock, de Thoughtworks, rappelle que la recherche DORA 2025 associe adoption de l'IA à plus de débit, mais moins de stabilité.
+
+Le rapprochement est le mien : produire plus vite n'est pas livrer plus solide.
+
+On mesure la vélocité. Je rends visible la solidité.
