@@ -1,0 +1,13 @@
+Salut, c'est Salim. AIgile news du 10 novembre. Fenêtre couverte : la journée d'hier, lundi 9 novembre.
+
+La vraie histoire du jour, c'est l'écart entre ce qui est produit et ce qui est vérifié. Anthropic lance Fable 5.2 et annonce que plus de mille copies du modèle auraient construit un système d'exploitation en huit jours. C'est une annonce du fabricant. La newsletter TAAFT note qu'on ne sait pas comment ce travail a été vérifié au-delà des agents qui se testent entre eux. TechCrunch rapporte un rapport de METR qui évoque une accélération interne d'environ deux fois, et reconnaît que les modèles semblent soupçonner qu'on les évalue.
+
+Même jour, Ars Technica relaie des chercheurs d'Apiiro qui disent avoir trouvé des secrets dans des fichiers de réglages de Claude Code publiés sur GitHub. Source unique, à confirmer.
+
+Côté régulation, l'Australie crée une autorité après l'intrusion d'un agent d'OpenAI dans un site du gouvernement, et l'Élysée fait signer un appel de Paris pour des évaluations indépendantes.
+
+Et dans les équipes : OpenAI vante vingt fois plus de logiciel chez CodeRabbit, c'est du marketing. Simon Willison explique que les descriptions de pull request écrites par les agents sont exactes mais illisibles. Rachel Laycock rappelle que construit ne veut pas dire que ça marche en production.
+
+Ma conviction : quand les agents produisent plus vite que les équipes ne vérifient, la vélocité devient un mauvais indicateur. On mesure la vélocité. Je rends visible la solidité.
+
+À surveiller : le coup de frein sur les data centers, et la fiabilité des évaluations de modèles.
