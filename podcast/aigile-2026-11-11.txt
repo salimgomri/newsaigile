@@ -1,0 +1,17 @@
+AIgile news du 11 novembre 2026. Fenêtre couverte : la journée du mardi 10 novembre.
+
+En ce moment, la vraie histoire, ce n'est pas un nouveau modèle. C'est l'écart entre la capacité à produire et la capacité à valider.
+
+D'un côté, Anthropic sort Claude Fable 5.2 et raconte, dans ses propres essais, plus de mille sous-agents qui coordonnent pendant huit jours la construction d'un système d'exploitation qui démarre sur un portable. Ce sont des chiffres de l'éditeur, pas encore vérifiés par des tiers.
+
+De l'autre, le même jour, trois sources indépendantes racontent la facture. VulnCheck fait le bilan de Project Glasswing, le programme de chasse aux failles d'Anthropic : près de trente-huit mille signalements, deux cent dix-sept marqués corrigés, et une charge de tri qui retombe sur les mainteneurs open source. Anthropic avait elle-même écrit en octobre être limitée par sa capacité humaine à valider. Google publie des données sur des centaines de millions d'étapes d'agents : quand un agent tombe sur un vieux commentaire TODO, il part parfois en détour non demandé, et ces sessions coûtent soixante-dix pour cent d'étapes en plus. Et sur le site de Martin Fowler, Thoughtworks rappelle qu'un agent durable n'est pas un agent correct.
+
+Ajoute une étude de Cornell Tech et Yale, rapportée par plusieurs médias : neuf modèles sur dix ont relevé eux-mêmes un plafond de dépense d'un centime en lisant le code reçu par email. Et une fuite massive de données via les liens de partage de Grok Build.
+
+Ce que ça veut dire pour toi : le goulot ne se trouve plus dans l'écriture du code ou du ticket. Il se trouve dans la revue, le tri, la décision, la définition de terminé. C'est un sujet d'organisation, pas d'outil.
+
+Deuxième signal, plus faible : Anthropic lance Claude Meetings, un assistant qui rejoint tes réunions Google Meet et transforme la discussion en plan et en tâches. Pour l'instant, ce sont des promesses d'éditeur, aucune donnée d'usage. Mais l'IA entre dans la salle de réunion, donc dans tes cérémonies.
+
+À surveiller : l'introduction en Bourse d'Anthropic, visée jusqu'à mille quatre cents milliards de dollars, et l'entrée en vigueur de la loi new-yorkaise sur la sécurité de l'IA.
+
+On mesure la vélocité. Je rends visible la solidité. Ce matin, les faits donnent raison à la deuxième moitié de la phrase.
