@@ -1,0 +1,23 @@
+AIgile news du jeudi 12 novembre 2026. Fenêtre couverte : la journée de mercredi 11 novembre.
+
+En ce moment, la vraie histoire, ce n'est pas que les agents écrivent du code. Ça, c'est acquis. La vraie histoire, c'est la question qui monte partout en même temps : qui vérifie ce que l'agent livre.
+
+Mercredi, Amazon publie un texte au titre sans détour : les agents qui ont construit AWS Emulator. L'entreprise affirme que des milliers d'agents autonomes ont écrit chaque ligne de code, et que l'équipe n'a ni écrit ni relu une seule ligne. Les humains ont écrit les consignes, les garde-fous et une porte de fusion automatique. C'est l'annonce.
+
+Sur Hacker News, le fil compte plus de sept cents points. Des développeurs ont regardé les scores de compatibilité publiés par le projet lui-même : environ vingt-deux pour cent pour Athena, soixante-dix-sept pour cent pour Firehose. La documentation de sécurité indique que les politiques IAM ne sont pas fidèlement émulées. Ce sont des avis individuels, mais ils s'appuient sur les chiffres du projet. Écart net entre le discours et ce qui est démontré.
+
+Le même jour, sur le site de Martin Fowler, Matteo Vaccari, de Thoughtworks, publie Tests as data. Sa thèse : quand l'IA écrit à la fois le code et les tests, tu perds l'assurance que les tests t'apportaient. Le développeur devient le client du code. Le contrat, ce sont des tests clients, écrits comme des données lisibles, protégés, que l'agent ne peut pas modifier en douce.
+
+Et GitHub rend ses Agentic Workflows disponibles pour tous, avec des droits en lecture seule par défaut et un plafond de dix dollars par exécution. Un ingénieur cité par InfoQ juge ce budget beaucoup trop généreux pour du simple tri de tickets, et refuse ce modèle pour tout ce qui modifie du code.
+
+Le contre-exemple utile vient de Google DeepMind. Ses agents ont vérifié formellement le cœur du protocole Signal en quatre semaines. Mais des experts humains ont défini et relu chaque propriété à prouver. La vérification n'a pas disparu. Elle a été pensée avant.
+
+Deuxième signal, plus faible : les agents rencontrent des murs. United interdit aux assistants IA personnels de réserver des vols, au nom de la sécurité et de la réglementation. Le même jour, une startup présente sur Hacker News un outil pour transformer n'importe quel site, compagnies aériennes comprises, en outil pour agents. Signal émergent, à suivre.
+
+Enfin, côté gouvernance, le conseil d'administration de Nvidia s'est réuni mercredi soir pour décider du sort de Jensen Huang. Aucune décision annoncée à l'heure où j'écris. TechCrunch rappelle que l'entreprise n'a pas de plan de succession évident.
+
+Ma conviction du jour : un agent qui livre vite sans que personne ne sache dire ce qui est vérifié, c'est de la vélocité sans solidité. On mesure la vélocité. Je rends visible la solidité.
+
+À surveiller : la décision du conseil de Nvidia, la multiplication éventuelle des interdictions d'agents chez d'autres entreprises, et les premiers retours terrain sur les budgets des workflows agentiques de GitHub.
+
+C'était AIgile news. Bonne journée.
