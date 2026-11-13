@@ -1,0 +1,23 @@
+AIgile news du vendredi 13 novembre 2026. Fenêtre couverte : la journée de jeudi 12 novembre.
+
+En ce moment, la vraie histoire, c'est l'écart entre ce qu'on annonce et ce qu'on peut prouver. Et jeudi, cet écart s'est vu partout, du sommet de Nvidia jusqu'à une fouille archéologique au Mexique.
+
+Commençons par le séisme. Jensen Huang quitte Nvidia, l'entreprise qu'il a fondée en 1993. Les faits confirmés par plusieurs sources indépendantes : Colette Kress, directrice financière, assure l'intérim, et le conseil cherche un successeur permanent. Sur la manière, les récits divergent. La communication officielle parle de démission. TechCrunch écrit que le conseil l'a évincé. Et l'adresse de l'article du Monde dit démis, alors que son titre dit quitte ses fonctions. Le même jour, Wired rapporte que des salariés signent une pétition pour son retour, et la Chine accuse les États-Unis de fabriquer une histoire d'espionnage.
+
+Ce qui m'intéresse, ce n'est pas le scandale. C'est la fragilité qu'il révèle. TechCrunch liste ce qui reposait sur un seul homme : le plaidoyer pour les modèles ouverts, une coalition sur la sécurité des agents, et surtout la promesse que les puces Nvidia garderaient leur valeur, promesse sur laquelle de grands fonds ont engagé jusqu'à cinq cents milliards de dollars dans les centres de données. Quand une stratégie tient sur une personne, ce n'est pas une stratégie, c'est un risque.
+
+Deuxième écart, très concret. Un chercheur de Google affirme avoir découvert, avec une équipe d'agents IA, un site maya inconnu. La newsletter There's An AI For That en fait sa une mercredi : quarante-huit agents trouvent une pyramide maya. Jeudi, The Verge rétablit les faits : le site avait déjà été publié dans une revue scientifique l'an dernier. Les archéologues critiquent des amateurs qui débarquent dans un domaine expert avec des outils puissants, sans l'expertise pour comprendre ce qu'ils voient.
+
+Troisième écart. Dans la vidéo liée à son introduction en bourse, Dario Amodei, patron d'Anthropic, affirme que le cancer, Alzheimer et les maladies cardiaques seront des reliques du passé en moins de dix ans. Le patron d'Eli Lilly, Dave Ricks, lui répond publiquement : la preuve humaine randomisée reste le goulot, et le progrès sera probablement graduel. Eric Topol parle d'objectif impossible. Ce n'est pas un détail : c'est un industriel du médicament qui contredit un vendeur d'IA sur son propre terrain.
+
+Et MIT Technology Review ajoute une pièce au dossier Nvidia : selon un élu américain, l'entreprise aurait reconnu en privé qu'elle pouvait suivre ses puces pour lutter contre la contrebande, alors que son syndicat professionnel jugeait publiquement ce suivi potentiellement infaisable. Attention, cela repose sur le seul témoignage de cet élu, sans document écrit, et Nvidia n'a pas confirmé.
+
+Un événement isolé, mais important pour les directions informatiques : Fireworks AI, fournisseur d'accès à des modèles ouverts, a été piraté. Notion confirme que des transcriptions de conversations de son assistant IA ont été dérobées, pour environ un pour cent de ses clients selon Notion. C'est la deuxième intrusion chez Fireworks en deux mois. Ton fournisseur d'IA a lui aussi des fournisseurs.
+
+Côté agilité, deux lectures solides. Sur InfoQ, Xin Yao défend que la dette technique est sociale : c'est le prix de l'apprentissage, et l'IA produit du code plus vite que l'équipe ne construit sa compréhension partagée. Et Martin Fowler propose de générer, avec un modèle, un glossaire du vocabulaire métier de l'organisation, relu par les experts du domaine. Même message : la vitesse ne remplace pas le sens partagé.
+
+Ma conviction du jour : une annonce, c'est de la vélocité. Une preuve, c'est de la solidité. On mesure la vélocité. Je rends visible la solidité.
+
+À surveiller : le choix du successeur chez Nvidia et ce que deviennent ses engagements sur l'open source, l'audition de Jensen Huang devant le Congrès, et l'ampleur réelle de la fuite chez Fireworks, qui compte d'autres clients connus.
+
+C'était AIgile news. Bon vendredi.
