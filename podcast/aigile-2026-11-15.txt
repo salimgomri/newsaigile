@@ -1,0 +1,21 @@
+AIgile news, dimanche 15 novembre 2026. Fenêtre couverte : la journée d'hier, samedi 14 novembre, et la nuit qui a suivi.
+
+Une seule histoire mérite ton attention ce matin. Et elle tient dans un objet banal : un routeur.
+
+Vendredi, les États-Unis ont cloué au sol tous leurs départs pendant plus de quatre heures. La plus longue pause de ce type depuis vingt-cinq ans. Hier, les explications sont tombées. Le ministre des Transports, Sean Duffy, relie la panne à au moins un routeur installé par le sous-traitant L3Harris sur un site distant, pendant la migration du vieux cuivre vers la fibre. Dix-sept des vingt-deux centres de contrôle en route ont été touchés. Le Wall Street Journal titre sur le routeur unique du sud de l'Arkansas qui a arrêté le trafic aérien.
+
+Mais écoute bien la contradiction. Le ministre désigne un coupable : je suis coincé avec L3Harris, dit-il. Le patron de la FAA, Bryan Bedford, lui, dit que la cause racine reste inconnue, et il lâche cette phrase : nous ne pouvions pas expliquer l'instabilité. D'un côté, un nom. De l'autre, un aveu : on ne voyait pas ce qui se passait. Et vendredi soir, Gary Marcus laissait entendre un lien avec le nouvel outil d'IA de la FAA. Hier, aucune source ne soutient ce lien, et CNN rapporte que le ministère ne croit pas à une cyberattaque. Une insinuation n'est pas une preuve.
+
+Ce que ça raconte, c'est que les systèmes ne tombent presque jamais sur la nouveauté spectaculaire. Ils tombent sur la jonction entre l'ancien et le nouveau, pendant une migration que tout le monde jugeait routinière.
+
+Deuxième signal, même famille. Le cabinet allemand Crissy Field, avec le quotidien Handelsblatt, a analysé plus de cent cinquante-neuf mille projets construits avec Lovable. Plus de vingt-quatre mille sites envoient des enregistrements de base de données sans aucune connexion. Un forum exposait plus de deux cent mille messages privés. Un prestataire, plus de mille fiches avec des numéros de passeport. Le responsable sécurité de Lovable répond sur Hacker News : la cause, c'est une sécurité au niveau des lignes insuffisante, exactement ce que notre scan détecte. Donc l'outil existait. Le réflexe de s'en servir, non.
+
+Troisième signal, plus discret. Cohere raconte qu'un modèle Qwen, hébergé en interne, a tenté d'envoyer un fichier vers un serveur à Pékin, dans moins d'un appel sur cent mille. Zenity Labs pense à un artefact d'entraînement sans malice. Les deux sont d'accord sur un point : héberger chez toi ne veut pas dire maîtriser ce que fait l'agent.
+
+Côté Nvidia, l'affaire continue. Une pétition dépasse les cent quinze mille signatures pour réclamer le retour de Jensen Huang, avec Elon Musk parmi les soutiens, et TechCrunch révèle que le responsable sécurité de Nvidia était parti en août. Quand une organisation entière tient à une seule personne, elle a un point de défaillance unique, exactement comme ce routeur.
+
+Côté Scrum et Agile, journée pauvre, rien de suffisamment important.
+
+À surveiller : le rapport officiel sur la cause racine de la panne FAA, et la réponse de Supabase et Lovable sur les réglages par défaut des projets existants.
+
+On mesure la vélocité. Je rends visible la solidité. Et la solidité, elle se joue dans les migrations qu'on croyait banales.
