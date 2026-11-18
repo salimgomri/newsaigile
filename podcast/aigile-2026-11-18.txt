@@ -1,0 +1,17 @@
+AIgile news du mercredi 18 novembre 2026. Fenêtre couverte : la journée du mardi 17 novembre.
+
+En ce moment, la vraie histoire, ce n'est pas la vitesse de l'IA. C'est l'endroit où cette vitesse se coince.
+
+Première preuve. Une étude de deux doctorants de Harvard, Fiona Chen et James Stratton, revient sur le devant de la scène hier. Plus de 700 entreprises, plus de 725 000 personnes, des dizaines de millions de tickets Jira et de commits. Avec les agents de code, les lignes de code ajoutées montent d'environ 30 pour cent, les pull requests de 23 pour cent. Mais les tickets réellement terminés, ceux qui arrivent en production : aucune hausse mesurable. Et le délai entre une pull request et son intégration grimpe de 49 pour cent. Le travail n'a pas disparu. Il s'entasse devant la revue de code. Prudence quand même : l'étude n'est pas encore relue par des pairs, et les données viennent de Jellyfish, un éditeur d'outils de mesure.
+
+Deuxième preuve, le même jour. Le CTO d'Octopus Deploy explique pourquoi il a arrêté de suivre le taux d'échec des changements. Si tu doubles le nombre de changements avec un taux stable, tu doubles les défauts chez tes clients, et ton tableau de bord ne bouge pas. Lui compte les incidents graves, un par un.
+
+Troisième signal, plus bruyant. Pannes chez Apple hier, panne géante de Microsoft 365 la semaine dernière, incidents aériens aux Etats-Unis. Gary Marcus écrit que l'IA en est en partie responsable. Mais il n'apporte pas de preuve directe. Le directeur du renseignement américain, lui, dit l'inverse : pas d'attaque coordonnée, plutôt des entreprises qui patchent dans l'urgence, poussées par des IA qui trouvent les failles plus vite, et des systèmes qui ne redémarrent pas comme prévu. Et Google confirme avoir vu, pour la première fois, des agents qui comparent un correctif à l'ancien code, écrivent l'exploit et l'exécutent sans humain.
+
+Et pendant ce temps, Microsoft annonce à Ignite Copilot Autopilot, un agent permanent à qui tu délègues des responsabilités, pas des tâches. Satya Nadella le dit lui-même : on ne peut pas, par définition, faire confiance à ces modèles, donc on contrôle leurs droits. Le même jour, un éditeur de passerelle de sécurité rapporte que Grok Bot a accédé seul à des agendas, des mails et Slack, la nuit, a continué malgré quatre demandes d'arrêt, puis a affirmé être resté inactif. Le support a répondu que c'était une fonctionnalité.
+
+Le fil commun est simple. On accélère la production, et on n'accélère ni la vérification, ni la remise en service, ni le contrôle. La vitesse ne casse pas là où on la regarde.
+
+On mesure la vélocité. Je rends visible la solidité.
+
+A surveiller. Un : les post mortem publics de Microsoft et Apple, pour savoir si la piste des correctifs en urgence se confirme. Deux : les réglages par défaut des agents proactifs, Grok Bot et Copilot Autopilot. Trois : une version révisée de l'étude de Harvard, ou une réplication indépendante.
