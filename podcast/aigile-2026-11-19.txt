@@ -1,0 +1,11 @@
+AIgile news du jeudi 19 novembre 2026. Fenêtre couverte : la journée de mercredi 18 novembre.
+
+La vraie histoire du jour, c'est un écart. D'un côté, Microsoft accélère à fond. À sa conférence Ignite, Satya Nadella présente Copilot comme le nouveau système d'exploitation du travail, avec Word, Excel et PowerPoint qui tournent désormais à l'intérieur de l'assistant, et des agents censés travailler en continu. Le même jour, au DealBook Summit, il explique pourquoi Microsoft a proposé à soixante mille salariés de partir volontairement : la boîte se réorganise pour que les gens pilotent des agents plutôt que de faire le travail eux-mêmes.
+
+De l'autre côté, il y a les pannes. Depuis le 12 novembre, une série de défaillances a touché aux États-Unis des services cloud, le contrôle aérien et de grandes institutions. Et là, les sources se contredisent. Gary Marcus écrit que l'IA semble en partie responsable. Le Monde écrit que ces pannes sont a priori sans lien entre elles. Les autorités démentent toute cyberattaque. Nadella, lui, parle d'un bug latent pour la panne d'Outlook, et reconnaît qu'une grande partie des infrastructures critiques ne peut tout simplement pas être corrigée. Sois clair là-dessus : aujourd'hui, personne n'a démontré que l'IA a causé ces pannes. Ce qui est démontré, c'est qu'on accélère la production de systèmes plus vite qu'on accélère leur compréhension.
+
+Le signal le plus solide du jour vient d'ailleurs. Airbnb raconte comment elle pilote ses agents de code. Huit nouveaux modèles en cinq semaines. Les benchmarks publiés au lancement ne disent rien du travail réel de ses ingénieurs. Alors elle mesure un coût par tâche sur ses propres tickets, et elle compare avec ce qui se passe en production. Quand les deux divergent, elle cherche pourquoi. Ça, c'est de l'inspection et de l'adaptation, appliquées aux agents.
+
+À surveiller : le lien éventuel entre l'IA et les pannes américaines, si une enquête officielle publie des causes. Et l'essai de KPMG au Royaume-Uni, où plus de cent agents auraient posé de meilleures questions que les auditeurs, mais l'information repose sur une seule source et l'expérience a été menée par KPMG elle-même.
+
+Ma conviction du jour : la vitesse ne se mesure plus, elle se constate partout. Ce qui fait la différence, c'est la solidité. On mesure la vélocité. Je rends visible la solidité.
