@@ -1,0 +1,15 @@
+AIgile news du vendredi 20 novembre 2026. Fenêtre couverte : la journée de jeudi 19 novembre.
+
+La vraie histoire du jour, c'est un écart entre deux chiffres de vitesse. D'un côté, on te vend la multiplication. Chez Pinterest, un staff engineer a montré à QCon San Francisco que les dix pour cent d'ingénieurs les plus actifs sont passés de six virgule sept à onze virgule trois pull requests fusionnées par semaine, soit soixante-huit pour cent de plus. La moitié la moins active, elle, n'a gagné que quatorze pour cent. La veille, Satya Nadella expliquait qu'une équipe de onze développeurs chez Microsoft construit une usine logicielle qui construit le produit.
+
+De l'autre côté, il y a la durée. À la conférence GOTO Copenhague, Adam Tornhill explique que les gains de vitesse dus à l'IA disparaissent en quelques mois, parce que la complexité du code explose. Attention, Tornhill a fondé CodeScene, qui vend justement des outils de mesure de la santé du code. Mais son propos rejoint une étude indépendante de Carnegie Mellon, présentée à la conférence MSR 2026 : sur huit cent six dépôts open source qui ont adopté Cursor, le volume de code ajouté est multiplié par trois à cinq le premier mois, puis le gain s'évapore après deux mois. Pendant ce temps, les alertes d'analyse statique augmentent de trente pour cent et la complexité de quarante et un pour cent, et ça ne redescend pas.
+
+Sois précis là-dessus : l'étude porte sur de l'open source et c'est une étude d'observation, pas une expérience contrôlée. Et les chiffres de Pinterest reposent sur une seule source, une présentation interne. Mais les deux mesurent la même chose, le débit, et une seule regarde ce qui reste après.
+
+Le même jour, BMW publie avec AWS comment elle gouverne des centaines d'agents utilisés par douze mille cinq cents développeurs. Son idée centrale : on ne fait pas confiance à un agent en bloc, on attribue un niveau d'autonomie à chaque étape. Rédiger de la documentation, ce n'est pas écrire en base de production.
+
+Pendant ce temps, Anthropic a fait son entrée en Bourse. L'action a ouvert à cent onze dollars, trente-trois pour cent au-dessus du prix d'introduction, et finit la journée en hausse de dix-sept pour cent. Les chiffres de valorisation divergent selon les médias, plus de deux mille milliards de dollars à l'ouverture selon TechCrunch, mille deux cent quatre-vingts milliards à la clôture selon Le Monde. Et Wall Street a fini en forte baisse.
+
+À surveiller : les pannes en série aux États-Unis. Un investisseur en cybersécurité avance que l'IA fait remonter des failles si vite que la vague de correctifs casse des systèmes. C'est une hypothèse, pas un constat, et les entreprises concernées parlent de problèmes techniques. Si une enquête officielle publie des causes, ça devient le sujet. Et l'agent Muse de Meta, qui selon des messages internes rapportés par Reuters aurait mélangé les conversations de différents comptes.
+
+Ma conviction du jour : un gain de vitesse qui disparaît en deux mois, ce n'est pas un gain, c'est une dette avec un délai de grâce. On mesure la vélocité. Je rends visible la solidité.
