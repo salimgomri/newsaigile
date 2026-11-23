@@ -1,0 +1,17 @@
+AIgile news du lundi 23 novembre 2026. Fenêtre couverte : la journée d'hier, dimanche 22 novembre.
+
+La vraie histoire du week-end, ce n'est pas qu'une IA a résolu l'hypothèse de Riemann. La vraie histoire, c'est l'écart entre vérifié et compris.
+
+Les faits d'abord. Levent Alpöge, mathématicien chez Anthropic, a annoncé vendredi une preuve de l'hypothèse de Riemann généralisée, obtenue en travaillant avec Claude. La preuve se présente sous forme de code Lean, un vérificateur formel, environ dix-sept millions de lignes selon John Baez. Andrew Sutherland, du MIT, l'a recompilée de son côté et parle de moment historique, tout en précisant qu'il reste beaucoup de travail pour comprendre les détails mathématiques. Ça, c'est solide : la machine dit que chaque étape tient.
+
+Ce qui n'existe pas encore, c'est une version qu'un mathématicien puisse lire et discuter. Alpöge dit lui-même qu'il va l'écrire. Dimanche, dans Le Monde, l'académicien Etienne Ghys rappelle que les maths ne se réduisent pas à des résultats. Gary Marcus, lui, insiste sur un point que les gros titres oublient : l'IA n'y serait pas arrivée seule, il a fallu des mois de collaboration étroite. Et le titre de Scientific American dit "prouve", alors que l'adresse de la même page dit encore "affirme prouver". Tout le débat est dans cet écart.
+
+Pourquoi ça te concerne ? Parce que tes équipes vivent la même situation à petite échelle. Du code généré, des tests au vert, une pipeline qui valide. Et parfois, personne dans l'équipe ne sait expliquer ce que fait le code. Vérifié, oui. Compris, pas forcément. C'est exactement la différence entre la vélocité et la solidité.
+
+Deuxième signal, et il converge. À QCon San Francisco, Manju Rajashekhar a défendu que le harnais autour d'un agent compte plus que le modèle, et que l'approbation humaine est une protection faible, parce que les gens finissent par valider sans lire. Au même moment, InfoQ revient sur les travaux d'Apiiro et de GitGuardian publiés début novembre : le bouton "ne plus demander" de Claude Code a enregistré des commandes contenant des secrets dans un fichier local, et des milliers de ces secrets se sont retrouvés sur GitHub public. Deux sources indépendantes, un même constat : cliquer sur approuver n'est pas gouverner. Les limites se posent dans le système, pas dans le réflexe.
+
+Troisième sujet, plus lointain mais réel : la défiance contre les data centers devient mondiale. Le Monde la documente de l'Inde au Chili, TechCrunch publie le même jour un entretien avec Paris Marx sur le même mouvement. Pour un DSI, la question du coût physique de l'IA ne restera pas longtemps hors du comité de direction.
+
+À surveiller : la proposition d'OpenAI, signée de son directeur scientifique Jakub Pachocki, de fixer des limites communes de développement fondées sur la perplexité des modèles. Pour l'instant, c'est une proposition d'entreprise, sans réaction d'experts indépendants. Si d'autres laboratoires s'y rallient, ça deviendra un sujet de gouvernance majeur.
+
+Ma conviction du jour. Une preuve que personne ne peut encore lire reste une promesse. Un sprint que personne ne peut expliquer aussi. On mesure la vélocité. Je rends visible la solidité.
