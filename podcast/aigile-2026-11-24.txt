@@ -1,0 +1,13 @@
+AIgile news du mardi 24 novembre 2026. Fenêtre couverte : la journée d'hier, lundi 23 novembre.
+
+La vraie histoire du jour, c'est la signature. Qui signe le code qui part en production. Anthropic lance Claude Ship, un ensemble de trois agents pour GitHub : la revue de code, déjà disponible, un agent qui corrige les tests en échec et les conflits de fusion, et surtout Claude Approvals, en bêta, qui peut approuver les changements jugés routiniers si la politique de l'organisation l'autorise. TechCrunch et The Verge le rapportent tous les deux, mais les deux reprennent l'annonce de l'éditeur. Aucun retour terrain indépendant pour l'instant.
+
+Le détail qui compte : en mars, dans son billet de lancement de Code Review, Anthropic écrivait que l'outil n'approuverait pas les pull requests, que c'était encore une décision humaine. Huit mois plus tard, l'approbation devient une fonctionnalité. Ce n'est pas un scandale, c'est un déplacement de la ligne. Et une ligne qui bouge, il faut que quelqu'un dans l'organisation décide où elle se trouve.
+
+Le même jour, à la QCon de San Francisco, Netflix raconte l'inverse côté terrain. Son équipe Commerce a d'abord écrit 45 décisions d'architecture, pour les humains et pour les agents. Son premier agent de revue laissait 23 commentaires sur une seule pull request. Aujourd'hui il ne remonte que les vrais bloquants, avec une preuve. Et chez Netflix, rien n'est fusionné automatiquement, les ingénieurs restent propriétaires du code. Même conférence, Amanda Walker, de Google, conseille de garder la revue humaine pour tout ce qui est irréversible.
+
+Le deuxième sujet, c'est l'emploi des cadres. France Culture consacre une émission à l'idée que plus d'IA signifie moins de cadres, en s'appuyant sur le baromètre de Coface, qui mesure un décrochage des offres d'emploi dans les métiers les plus exposés. Mais Coface reconnaît lui-même qu'il ne peut pas isoler la part de l'IA. Et le même jour, Sayash Kapoor et Rod Moshtagi publient un essai qui démonte l'idée que le conseil serait une simple couche d'intelligence : les clients paient aussi pour le jugement, la coordination, la crédibilité et la responsabilité.
+
+Mon analyse : l'outil sait de plus en plus produire, revoir, et même approuver. Ce qu'il ne fait pas, c'est décider à la place de l'équipe ce qui mérite une signature humaine. Ça, c'est un accord d'équipe, une Definition of Done, une gouvernance. On mesure la vélocité. Je rends visible la solidité.
+
+À surveiller : les premiers retours sur Claude Approvals en conditions réelles, et le prochain trimestre du baromètre Coface.
