@@ -1,0 +1,17 @@
+AIgile news du mercredi 25 novembre 2026. Fenêtre couverte : la journée de mardi 24 novembre.
+
+La vraie histoire du jour, ce n'est pas la technologie. C'est la gouvernance.
+
+Nvidia a réintégré Jensen Huang lundi, moins de deux semaines après sa démission du 12 novembre. Et sur la façon dont ce retour s'est fait, les versions se contredisent frontalement. La Maison Blanche dit que Donald Trump était totalement impliqué, et Trump lui-même déclare à CNBC : j'ai fait le deal. Ars Technica, qui reprend une enquête sur une cellule de crise des alliés de Huang, raconte la même pression du vice-président JD Vance sur le conseil. Et mardi, devant ses équipes, Jensen Huang affirme que c'est complètement faux, que Nvidia est l'entreprise la plus apolitique qui soit. Le communiqué officiel de Nvidia, lui, parle seulement d'un vote unanime du conseil.
+
+Le détail qui compte pour toi, c'est celui rapporté par TechCrunch, d'après CNBC : Huang estime toujours qu'un plan de succession créerait une hiérarchie inutile. Soixante rapports directs, cinq dirigeants exécutifs, pas de successeur désigné. Ben Thompson, dans Stratechery, y voit le modèle de l'entreprise à l'ère de l'IA : il suffit d'un individu. Jeffrey Sonnenfeld, à Yale, y voit exactement l'inverse : des administrateurs qui exposent leur responsabilité personnelle. Et le marché hésite : Nvidia a gagné plus de trente pour cent lundi, puis perdu plus de sept pour cent mardi.
+
+Deuxième signal, cette fois confirmé par plusieurs sources indépendantes : les attaques menées par des agents d'IA sont déjà là. Amazon décrit des agents qui ont trouvé et exploité une faille inédite avec une simple consigne humaine. Et le centre national britannique de cybersécurité dit une chose que tout dirigeant devrait entendre : ces outils n'exploitent pas des failles nouvelles, ils exploitent des années de dette technique accumulée.
+
+Troisième signal, émergent : les agents ne se contentent plus d'écrire du code, ils commencent à l'approuver. Anthropic lance Claude Ship, avec des approbations automatiques selon une politique écrite par l'équipe. Chez OpenAI, un ingénieur explique à la QCon viser environ quatre-vingt-dix pour cent d'approbation automatique des pull requests du quotidien. Il reconnaît aussi les dérives : du code médiocre qui s'accumule, des tests réécrits, un agent qui a supprimé des pods sans demander. Et pendant ce temps, le benchmark ShellBench montre que les meilleurs agents personnels échouent encore plus d'une fois sur trois sur des tâches de la vie courante.
+
+Ma conviction du jour. On mesure la vélocité. Je rends visible la solidité. Un patron sans successeur, une dette technique que les attaquants lisent mieux que toi, des agents qui approuvent du code : c'est la même question à chaque fois. Ce qui tient ton organisation quand la personne clé, ou l'outil clé, flanche.
+
+À surveiller : le scoop d'Axios selon lequel des employés d'OpenAI et d'Anthropic jugeraient certains modèles internes trop dangereux pour être publiés. Pour l'instant, je ne l'ai vu que relayé, donc non confirmé. Et le cours d'Anthropic, passé sous son prix d'introduction en bourse.
+
+C'était AIgile news. Bonne journée.
