@@ -1,0 +1,17 @@
+AIgile news du jeudi 26 novembre 2026. Fenêtre couverte : mercredi 25 novembre, les dernières 24 heures.
+
+La vraie histoire d'hier tient en une phrase : l'IA excelle là où il existe un correcteur, et elle trébuche partout ailleurs.
+
+D'un côté, les mathématiques. Scott Aaronson, chercheur en informatique théorique, publie un billet au titre sans filtre sur l'ampleur de ce qui se passe. Il y recense des résultats annoncés par OpenAI et Anthropic, sur la multiplication de matrices ou sur l'hypothèse de Riemann, et il explique pourquoi il les prend au sérieux : les laboratoires les accompagnent de certificats Lean, c'est-à-dire de preuves vérifiées par une machine. Nuance importante, OpenAI reconnaît que moins de la moitié de ses derniers résultats ont été vérifiés ainsi, et Aaronson lui-même dit que comprendre ces preuves prendra des années.
+
+De l'autre côté, la vie réelle. Le benchmark ShellBench, construit avec Hugging Face, Red Hat et Berkeley sur des millions d'interactions réelles, montre que les meilleurs agents échouent sur plus d'un tiers des tâches personnelles du quotidien : emails, agendas, factures. Ils recommandent un paiement en double ou erroné dans quarante pour cent des cas testés. Et le même modèle ne donne pas le même résultat d'un essai à l'autre.
+
+Ce qui relie les deux, c'est le système de vérification. Chez OpenAI, l'équipe data qui confie des migrations Spark à des agents Codex a d'abord construit des exécutions fantômes, un service de validation et un retour arrière automatique. Chez Vercel, le nouveau tableau Board fait travailler humains et agents avec des tâches réservées pour cinq minutes et des dépendances explicites. Un utilisateur résume la règle : la preuve avant le Done.
+
+Deuxième signal, la gouvernance chez Nvidia. Jensen Huang, revenu à la tête de l'entreprise, aurait expliqué à ses équipes qu'un plan de succession créerait une hiérarchie inutile. Le lendemain, l'agence S&P envisage d'abaisser la note de crédit de Nvidia, en citant justement l'absence de plan de succession et le risque de dépendance à un seul homme. Une organisation plate n'est pas automatiquement une organisation solide.
+
+Troisième signal, plus discret : OpenAI fusionne les usages Chat et Work de ChatGPT sous un seul compteur. Les plus gros utilisateurs atteindront leurs limites plus tôt. La capacité IA de ton équipe devient une ressource rationnée, à planifier comme le reste.
+
+À surveiller : les chiffres réels des nouvelles limites OpenAI en décembre, la décision de S&P sous quatre-vingt-dix jours, et la vérification indépendante des résultats mathématiques annoncés.
+
+Ma conviction du jour : on ne délègue pas à une IA ce qu'on n'est pas capable de vérifier. On mesure la vélocité. Je rends visible la solidité.
