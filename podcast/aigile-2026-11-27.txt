@@ -1,0 +1,19 @@
+AIgile news du vendredi 27 novembre 2026. Fenêtre couverte : la journée de jeudi 26 novembre.
+
+Journée calme côté américain, c'était Thanksgiving. Mais un sujet ressort nettement, et il prolonge ce qu'on voyait mercredi : la revue de code est en train de changer de nature, et personne n'est d'accord sur ce qui doit la remplacer.
+
+À la QCon de San Francisco, Ankit Jain, patron d'Aviator, une société qui vend justement des outils sur ce sujet, il l'a dit lui-même en demandant au public de se méfier de lui, affirme que la relecture ligne à ligne est déjà morte dans la plupart des équipes. Les agents écrivent, une autre IA relit, les humains survolent et fusionnent. Il appelle ça le théâtre de la revue. Son équipe de neuf ingénieurs fusionnerait quatre fois plus de pull requests qu'il y a un an, avec environ quarante pour cent de retours arrière en moins. Ce sont ses chiffres, pas une mesure indépendante.
+
+Attention à un chiffre qui circule. Le compte rendu d'InfoQ dit que plus de soixante-quinze pour cent des pull requests fusionnent sans aucune revue humaine. Le blog de Faros, la source citée, dit autre chose : une hausse de soixante-seize virgule trois pour cent des fusions sans revue. Une hausse, pas une part. La tendance est la même, l'ampleur n'a rien à voir.
+
+En face, une étude déposée sur arXiv fait relire quatre-vingt-dix correctifs écrits par des agents à des modèles Claude. Résultat : même au niveau d'effort maximal, chaque réglage laisse passer au moins quarante-cinq pour cent des correctifs faux. Faros, de son côté, observe que les équipes qui utilisent beaucoup la revue par agent ont moins d'échecs de mise en production, mais précise que c'est une corrélation. Et Satya Nadella, à Ignite, a été très clair : un modèle qui en surveille un autre, ce sont des boîtes noires imbriquées, et c'est inacceptable.
+
+Le point commun entre tous ces acteurs qui se contredisent : aucun ne dit que la preuve est facultative. Jain lui-même propose de remplacer les tests verts par des preuves concrètes, captures, journaux, mesures, parce que l'agent qui a écrit le code a probablement écrit ses tests aussi.
+
+Deuxième signal, émergent : les plateformes posent leurs règles aux agents. Google impose qu'à partir du premier février deux mille vingt-sept, tout agent qui accède à Gmail, Drive ou Calendar passe par ses serveurs MCP, avec une conservation limitée à trente jours pour les index et mémoires. Et sur Gmail, l'envoi d'un message reste réservé aux partenaires.
+
+Ma conviction du jour. On mesure la vélocité. Je rends visible la solidité. Quand le code s'écrit plus vite qu'il ne se comprend, le vrai sujet n'est plus qui relit, c'est ce que ton équipe sait prouver.
+
+À surveiller : les critères d'accès partenaire de Google pour l'envoi d'emails par les agents. Et l'affirmation de DeepMind, rapportée par The Decoder, selon laquelle des agents pilotent déjà une partie de son calcul pour les expériences Gemini. Une seule source pour l'instant, donc non confirmé.
+
+C'était AIgile news. Bonne journée.
