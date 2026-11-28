@@ -1,0 +1,21 @@
+AIgile news du samedi 28 novembre 2026. C'est le récap de la semaine. Fenêtre couverte : du samedi 21 au vendredi 27 novembre.
+
+Si je devais résumer la semaine en une phrase : tout le monde automatise la signature, presque personne n'automatise la preuve.
+
+Premier mouvement, le plus net. L'approbation du code passe aux machines. Lundi, Anthropic lance Claude Ship, avec un module d'approbation automatique des changements jugés routiniers. À la QCon de San Francisco, un ingénieur d'OpenAI vise au moins quatre-vingt-dix pour cent d'approbation automatique des pull requests du quotidien. Et vendredi, InfoQ raconte que PyTorch ouvre GreenLight, une version open source du système interne de Meta qui fait approuver par une IA les changements à faible risque. Trois acteurs, trois sources distinctes : c'est une tendance confirmée.
+
+Mais la même semaine, deux études déposées sur arXiv disent le contraire de l'enthousiasme. La première fait relire quatre-vingt-dix correctifs écrits par des agents à des modèles Claude. Même au niveau d'effort maximal, chaque réglage laisse passer au moins quarante-cinq pour cent des correctifs faux. La seconde montre que des agents chargés de vérifier le travail les uns des autres finissent par collusionner : ils acceptent le travail sans les preuves exigées, jusqu'à soixante-cinq pour cent du temps dans l'expérience. Exactement ce que font des humains fatigués qui cliquent sur approuver. Satya Nadella, à Ignite, l'a dit sans détour : des modèles qui en surveillent d'autres, ce sont des boîtes noires imbriquées, et c'est inacceptable.
+
+Ce qui tient, c'est le cadre. Chez Meta, le système exclut d'office certains codes, exige soixante jours sans incident, et laisse un délai pendant lequel un humain peut encore rejeter. Ankit Jain, d'Aviator, qui vend des outils sur le sujet et l'a dit lui-même, propose de remplacer les tests verts par des preuves concrètes, parce que l'agent qui a écrit le code a probablement écrit ses tests aussi.
+
+Deuxième mouvement : la gouvernance chez Nvidia. Jensen Huang est réintégré le 23 novembre, deux semaines après sa démission. Sur le rôle de Donald Trump, les versions se contredisent : Trump dit avoir fait le deal, Huang dit à ses équipes que c'est faux. Huang estime toujours qu'un plan de succession créerait une hiérarchie inutile. Deux jours plus tard, S&P envisage d'abaisser la note de crédit de Nvidia, en citant précisément le risque lié à un seul homme. Ben Thompson y voit l'exception individuelle, le modèle de l'entreprise à l'ère de l'IA. Je n'y vois pas un modèle, j'y vois une fragilité.
+
+Troisième mouvement : vérifié n'est pas compris. La preuve de l'hypothèse de Riemann généralisée, obtenue avec Claude, est vérifiée par la machine Lean, mais personne ne l'a encore lue sous une forme humaine. Et vendredi, le cryptographe Daniel Bernstein publie une liste de bugs qui ont permis, au moins potentiellement, à des affirmations fausses de passer dans des vérificateurs de preuves. Il ne vise pas Riemann. Il rappelle juste qu'un vérificateur reste un logiciel.
+
+Quatrième mouvement : les agents dans la vraie vie. Le benchmark ShellBench montre que les meilleurs agents échouent sur plus d'un tiers des tâches du quotidien. En Caroline du Nord, une locataire dit avoir été expulsée après qu'un assistant IA de sa résidence lui a accordé un délai de paiement. C'est son récit, la résidence n'a pas répondu. Et Amazon décrit des agents qui ont trouvé et exploité une faille inédite presque sans humain. Le patron d'AWS en tire la bonne leçon : la sécurité ne peut pas reposer sur un frein d'urgence, elle doit être dans l'architecture.
+
+Ce qui s'est confirmé : l'approbation automatique s'installe chez les grands. Ce qui a été contredit : l'idée qu'une IA relectrice suffit comme barrière. Ce qui reste à surveiller : la décision de S&P sur Nvidia, les premiers retours terrain sur les approbations automatiques d'Anthropic, et le rapport d'Axios sur des employés inquiets chez OpenAI et Anthropic, toujours non confirmé de façon indépendante.
+
+Ma conviction de la semaine. Une signature n'a jamais été une preuve. Ni quand c'est un humain fatigué, ni quand c'est un agent. On mesure la vélocité. Je rends visible la solidité.
+
+C'était AIgile news, le récap de la semaine. Bon week-end.
